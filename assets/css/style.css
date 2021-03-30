@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url(../img/background-1.png);
+    background-repeat: no-repeat;
+    height: 900px;
+    background-size: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+    background:linear-gradient(rgb(55, 46, 41), rgba(55, 46, 41, 0));
+}
+.navbar__logo{
+    margin-left: 5.5%;
+}
+.navbar__logo-text{
+    margin-left: 10px;
+}
+.navbar__vl{
+    border-left: 1px solid rgb(251, 36, 36);
+    height: 55px;
+    margin-left: 2%;
+}
+.navbar__links{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    width: 639px;
+}
+.navbar__links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar__links a:hover{
+    color: rgb(254, 214, 49);
+    border-bottom: 3px solid rgb(254, 214, 49);
+}
+.navbar__vl-2{
+    border-left: 1px solid rgb(251, 36, 36);
+    height: 55px;
+    margin-left: 1%;
+}
+.navbar__language{
+    margin-left: 1%;
+}
+.navbar__personal-area{
+    display: flex;
+    align-items: center;
+    width: 214px;
+    height: 51px;
+    background-color: rgb(249, 3, 3);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+.navbar__personal-area-text{
+    margin-left: 14px;
+}
+.navbar__user-outlined{
+    margin-bottom: 8px;
+}

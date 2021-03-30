@@ -4,7 +4,7 @@ body{
 header{
     background-image: url(../img/background-1.png);
     background-repeat: no-repeat;
-    height: 900px;
+    height: 800px;
     background-size: 100%;
 }
 .navbar{
@@ -64,4 +64,12 @@ header{
 }
 .navbar__user-outlined{
     margin-bottom: 8px;
+}
+.top__header-title{
+    width: 700px;
+    margin: 4% 0 80px 7%;
+}
+.top__header-text{
+    margin-left: 7%;
+    width: 480px;
 }

@@ -29,16 +29,17 @@ header{
     display: flex;
     justify-content: space-around;
     margin-left: 2%;
-    width: 639px;
+    width: 700px;
 }
 .navbar__links a{
     color: white;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
 }
 .navbar__links a:hover{
     color: rgb(254, 214, 49);
     border-bottom: 3px solid rgb(254, 214, 49);
+    box-sizing: border-box;
 }
 .navbar__vl-2{
     border-left: 1px solid rgb(251, 36, 36);
@@ -46,7 +47,7 @@ header{
     margin-left: 1%;
 }
 .navbar__language{
-    margin-left: 1%;
+    margin-left: 3%;
 }
 .navbar__personal-area{
     display: flex;
@@ -57,7 +58,7 @@ header{
     color: white;
     border: none;
     border-radius: 50px;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 .navbar__personal-area-text{
     margin-left: 14px;
@@ -72,4 +73,9 @@ header{
 .top__header-text{
     margin-left: 7%;
     width: 480px;
+}
+.staf-links{
+    margin-top: 230.5px;
+    height: 155px;
+    background-color:  rgba(55, 46, 41, 0.5);
 }

@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 header{
     background-image: url(../img/background-1.png);
@@ -62,6 +63,7 @@ header{
     margin-left: 3%;
 }
 .navbar__personal-area-text{
+    font-weight: 100;
     margin-left: 14px;
 }
 .navbar__user-outlined{
@@ -84,8 +86,8 @@ header{
     height: 1500px;
 }
 .main__tracking{
-    height: 450px;
-    background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,1));
+    height: 750px;
+    background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,1),rgba(255,255,255,1));
 }
 .main__tracking-input{
     height: 288px;
@@ -122,8 +124,6 @@ header{
     margin: 1% 6% 2% 0;
 }
 .main__tracking-input-track{
-    /* display: flex;
-    flex-wrap: wrap; */
     margin-left: 24%;
 }
 .input-treck1{
@@ -143,4 +143,27 @@ header{
     color: white;
     font-size: 14px;
     font-weight: bold;
+}
+.main__tracking-staf{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.main__tracking-staf-small{
+    text-align: center;
+    width: 300px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.main__tracking-staf-small-title{
+    font-weight: 1000;
+}
+.main__tracking-staf-small-img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.main__tracking-staf-small p{
+    margin-top: 6%;
 }

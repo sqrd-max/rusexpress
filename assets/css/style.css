@@ -87,7 +87,7 @@ header{
 }
 .main__tracking{
     height: 750px;
-    background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,1),rgba(255,255,255,1));
+    background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,0.8),rgba(255,255,255,0.7));
 }
 .main__tracking-input{
     height: 288px;

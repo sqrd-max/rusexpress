@@ -4,19 +4,17 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
-}
-header{
-    background-image: url(../img/background-1.png);
-    background-repeat: no-repeat;
-    height: 800px;
+    background-image: url(../img/background-2.png);
     background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
 }
 .navbar{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     height: 100px;
-    background:linear-gradient(rgb(55, 46, 41), rgba(55, 46, 41, 0));
+    background:rgb(55, 46, 41);
 }
 .navbar__logo{
     margin-left: 5.5%;
@@ -72,107 +70,84 @@ header{
 .navbar__user-outlined{
     margin-bottom: 8px;
 }
-.top__header-title{
-    width: 700px;
-    margin: 4% 0 80px 7%;
-}
-.top__header-text{
-    margin-left: 7%;
-    width: 480px;
-}
-.staf-links{
-    margin-top: 230.5px;
-    height: 155px;
-    background-color:  rgba(55, 46, 41, 0.5);
-}
+/* main */
 .main{
-    height: 1500px;
+    height: 845px;
 }
-.main__tracking{
-    height: 750px;
-    background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,0.8),rgba(255,255,255,0.7));
-}
-.main__tracking-input{
-    height: 288px;
-    width: 1009px;
-    margin: 10% 0 0 16%;
-    border-radius: 20px;
-    background-color: rgba(255,241,175,1);
-    box-shadow: 1px 2px 20px #FFE15E;
-}
-.main__tracking-car{
-    height: 267px;
-    position: absolute;
-    margin: -50px 0 0 9%;
-}
-.main__tracking-input-title{
-    float: right;
-    display: flex;
-    text-align: right;
-    width: 533px;
+.main h2{
+    margin: 80px 0 35px 450px;
     font-size: 40px;
-    line-height: 48px;
-    margin: 3% 6% 0 0;
 }
-.title{
+.main__text{
+    width: 840px;
+    margin-left: 350px;
+    line-height: 21px;
+    font-size: 18px;
+}
+
+
+.container input[type=text], 
+.container select {
+    width: 360px;
+    padding: 12px;
+    border: 1px solid black;
+    resize: vertical;
+}
+.row{
+    margin-bottom: 30px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
     font-weight: bold;
 }
-.main__tracking-input-text{
-    float: right;
-    display: flex;
-    text-align: right;
-    width: 533px;
-    font-size: 20px;
-    line-height: 24px;
-    margin: 1% 6% 2% 0;
-}
-.main__tracking-input-track{
-    margin-left: 24%;
-}
-.input-treck1{
-    width: 550px;
-    height: 50px;
+
+input[type=submit] {
+    padding: 12px 20px;
     border: none;
-    background: #FFBEBE;
-    border-radius: 20px;
-    padding-left: 2%;
-}
-.main__tracking-input-track-search{
-    width: 140px;
-    height: 50px;
-    background: #FF0606;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-}
-.main__tracking-staf{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-.main__tracking-staf-small{
-    text-align: center;
-    width: 300px;
-    font-size: 16px;
-    line-height: 19px;
-}
-.main__tracking-staf-small-title{
-    font-weight: 1000;
-}
-.main__tracking-staf-small-img{
-    width: 100%;
-    margin-bottom: 5%;
-}
-.main__tracking-staf-small p{
-    margin-top: 6%;
+    width: 162px;
+    height: 43px;
+    background: #FED631;
+    margin-left: 225px;
 }
 
+input[type=submit]:hover {
+    background-color: #45a049;
+}
 
+.container {
+    width: 900px;
+    margin: 40px 0 0 350px;
+    
+}
 
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
 /* footer */
 footer{
     background-image: url(../img/footer.png);
@@ -242,6 +217,3 @@ footer{
 .footer__contacts-networks{
     margin-bottom: 15px;
 }
-/* main end */
-
-/* comments */

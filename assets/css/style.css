@@ -51,9 +51,33 @@ header{
     height: 55px;
     margin-left: 1%;
 }
-.navbar__language{
-    margin-left: 3%;
+/* language */
+.form{
+	margin-left: 2%;
+} 
+select{
+	width: 70px;
+    border: none;
+    color: white;
+    background-color:  rgba(55, 46, 41, 0.5);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
 }
+.icon-ru{
+	background: url('../img/flag-for-russia.png') no-repeat;
+	background-size: 20px;
+	padding-left: 20px; 
+	background-position: 0 1px;
+}
+.icon-en{
+	background: url('../img/flag-for-eng.png') no-repeat;
+	background-size: 20px;
+	padding-left: 20px;
+	background-position: 0 1px;
+}
+/* language  end*/
 .navbar__personal-area{
     display: flex;
     align-items: center;
@@ -63,7 +87,7 @@ header{
     color: white;
     border: none;
     border-radius: 50px;
-    margin-left: 3%;
+    margin-left: 1%;
 }
 .navbar__personal-area-text{
     font-weight: 100;
@@ -244,4 +268,3 @@ footer{
 }
 /* main end */
 
-/* comments */

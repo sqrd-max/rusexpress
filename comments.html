@@ -24,12 +24,12 @@
                 <a href="#">Для корпоративных клиентов</a>
             </div>
             <div class="navbar__vl-2"></div>
-            <form class="navbar__language">
-                <select>
-                    <option selected value="RU">RU</option>
-                    <option value="EN">EN</option>
-                </select>
-            </form>
+            <div class="form">
+				<select class="select-events">
+					<option value="1" class="icon-ru">RU</option> 
+					<option value="0" class="icon-en">EN</option> 
+				</select>
+			</div>
             <button class="navbar__personal-area">
                 <img src="assets/img/user-outlined.png" alt="user-outlined" class="navbar__user-outlined">
                 <span class="navbar__personal-area-text">Личный кабинет</span>
@@ -127,6 +127,7 @@
             <input type="text" placeholder="Укажите Email" class="footer__subscribe-email"><button class="footer__subscribe-btn">Подписаться</button><br>
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="assets/js/language.js"></script>
 </body>
 </html>

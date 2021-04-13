@@ -93,19 +93,19 @@
             </div>
             <div class="main__cooperation-block"> 
                 <div class="main__cooperation-buttons">
-                    <button>Уверенность в своевременной доставке</button>
-                    <button>Возможность сделать заказ в любое удобное время</button>
-                    <button>Прозрачность доставки</button>
-                    <button>Полная финансовая ответственность</button>
+                    <button id="main__cooperation-cards-1" class="clicked">Уверенность в своевременной доставке</button>
+                    <button id="main__cooperation-cards-2">Возможность сделать заказ в любое удобное время</button>
+                    <button id="main__cooperation-cards-3">Прозрачность доставки</button>
+                    <button id="main__cooperation-cards-4">Полная финансовая ответственность</button>
                 </div>
                 <div class="main__cooperation-cards">
-                    <!-- <div class="main__cooperation-cards-1">
+                    <div class="main__cooperation-cards-1 section section_loaded" >
                         <p>
                             Наши курьеры, ответственны, прекрасно<br> 
                             ориентируются по городу
                         </p>
-                        <div class="main__cooperation-cards-1-text" >
-                            <span>Имеют при себе: </span>
+                        <div class="main__cooperation-cards-text">
+                            <span>Имеют при себе:</span>
                             <ul>
                                 <li>Паспорт</li>
                                 <li>Курьерское удостоверение (что <br> 
@@ -119,9 +119,9 @@
                             </ul>
                         </div>
                         <img src="assets/img/for_card1.png" alt="courier" class="main__cooperation-cards-1-courier">
-                    </div> -->
-                    <!-- <div class="main__cooperation-cards-1">
-                        <div class="main__cooperation-cards-1-text2" >
+                    </div>
+                    <div class="main__cooperation-cards-2 section">
+                        <div class="main__cooperation-cards-text2" >
                             <p>
                                 Благодаря наличию многоканальной телефонной линии и группы высококвалифицированных менеджеров, Вы навсегда забудете, что телефон курьерской службы может быть занят! 
                                 <br><br>
@@ -129,9 +129,9 @@
                             </p>
                         </div>
                         <img src="assets/img/time_for_card.png" alt="time" class="main__cooperation-cards-1-time">
-                    </div> -->
-                    <!-- <div class="main__cooperation-cards-1">
-                        <div class="main__cooperation-cards-1-text2">
+                    </div>
+                    <div class="main__cooperation-cards-3 section">
+                        <div class="main__cooperation-cards-text2">
                             <p>
                                 Вы в любой момент имеете возможность отследить судьбу отправления. 
                                 <br><br>
@@ -139,8 +139,8 @@
                             </p>
                         </div>
                         <img src="assets/img/tracking_for_card.png" alt="tracking" class="main__cooperation-cards-1-tracking">
-                    </div> -->
-                    <div class="main__cooperation-cards-2">
+                    </div>
+                    <div class="main__cooperation-cards-4 section">
                         <p class="card4">Мы несём полную финансовую ответственность за принятые товары и денежные средства.</p>
                         <img src="assets/img/money_for_card.PNG" alt="money_for_card" class="main__cooperation-cards-1-money">
                     </div>
@@ -148,7 +148,21 @@
             </div>
             <a href="#"><p class="main__cooperation-btn">Расчитать стоимость</p></a>
         </div>
-        
+        <p class="main__tracking-rus">
+            Мы доставляем груз<br> 
+            по всей России
+        </p>
+        <div class="main__carpet"></div>
+        <div class="main__animation">
+            <img src="assets/img/car2.png" alt="car" id="anim_block" class="slideRight main__car">
+            <svg class="line1">
+                <line fill="none" stroke="#496e97" stroke-miterlimit="15" x1="0" y1="80" x2="1530" y2="80" stroke-dasharray="10" />
+            </svg>
+            <div class="main__animation-cities">
+
+            </div>
+        </div>
+        <div class="main__carpet"></div>
     </div>
     <footer>
         <div class="footer__logo">
@@ -184,5 +198,7 @@
     </footer>
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="assets/js/language.js"></script>
+<script src="assets/js/animation.js"></script>
+<script src="assets/js/cards.js"></script>
 </body>
 </html>

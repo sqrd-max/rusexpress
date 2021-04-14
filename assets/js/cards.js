@@ -1,7 +1,7 @@
 function showCard(e){
     $('.section_loaded').addClass('section_hidden').removeClass('section_loaded');
     $('.clicked').removeClass('clicked').addClass('noneclicked');
-    let target= e.target;
+    let target= e.currentTarget;
     let currentCard=$(target).prop("id").split('#');
     cardName=currentCard[0];
     toShowCard = $('.'+cardName);
@@ -21,3 +21,6 @@ $('#main__cooperation-cards-3').on("click",function(e){
 $('#main__cooperation-cards-4').on("click",function(e){
     showCard(e);
 });
+
+
+

@@ -13,6 +13,10 @@ body{
             flex-direction: column;
       
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 header{
     background-image: url(../img/background-1.png);
     background-repeat: no-repeat;
@@ -303,29 +307,6 @@ select{
     animation: hideElement .4s ease-in-out both;
     z-index: -1;
 }
-@keyframes loadElement {
-    from {
-    visibility: hidden;
-    opacity: 0;
-    }
-    
-    to {
-    visibility: visible;
-    opacity: 1;
-    }
-}
-    
-@keyframes hideElement {
-    from {
-    visibility: visible;
-    opacity: 1;
-    }
-    
-    to {
-    visibility: hidden;
-    opacity: 0;
-    }
-}
 .main__cooperation-btn{
     width: 330px;
     height: 78px;
@@ -386,7 +367,7 @@ select{
         transform: translateX(-150%);
     } 
     100% {
-        transform: translateX(900%);
+        transform: translateX(800%);
     }   
 }
 .line1{
@@ -407,7 +388,7 @@ select{
     margin-top: -50px;
 }
 .main__order{
-    margin: 9% 0 20% 11%;
+    margin: 9% 0 10% 11%;
 
 }
 .main__order-btn{
@@ -425,33 +406,33 @@ select{
     height: 100px;
     transition: .3s ease-in-out all;
 }
-.main__order-btn button:hover{
-    background: #FFF1AF;
-    box-shadow: inset 0px -1px 0px #FA0606;
-}
 .main__order-cards{
     background-color: #FEF9E1;
     position: relative;
     height: 480px;
-    width: 1177px;
+    max-width: 1177px;
     padding-top: 4%;
+    
 }
-.main__order-cards-1{
+.main__order-cards-1,
+.main__order-cards-2,
+.main__order-cards-3,
+.main__order-cards-4{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    width: 100%;
 
 }
 .main__order-cards span{
     font-weight: 600;
     font-size: 24px;
-    line-height: 100.69%;
+    line-height: 24px;
 }
 .main__order-cards p{
     font-weight: 500;
     font-size: 18px;
-    line-height: 100.69%;
-    margin-top: 5%;
+    line-height: 24px;
 }
 .main__order-cards ul{
     list-style-image: url(../img/order-check.png);
@@ -465,19 +446,20 @@ select{
     
 }
 .main__order-cards-1-reg-auth a{
-    text-decoration: none;
-    color: black;
     height: 60px;
     align-items: center;
 }
-.main__order-cards-1-reg{
+.main__order-cards-1-reg,
+.main__order-cards-2-order,
+.main__order-cards-3-info,
+.main__order-cards-4-courier{
     width: 221px;
     height: 50px;
     background: #FED631;
     border-radius: 8px;
     border: none;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 .main__order-cards-1-auth{
     width: 90px;
@@ -489,9 +471,108 @@ select{
     
 }
 .main__order-cards-1-reg:hover,
-.main__order-cards-1-auth:hover{
+.main__order-cards-1-auth:hover,
+.main__order-cards-2-order:hover,
+.main__order-cards-3-info:hover,
+.main__order-cards-4-courier:hover{
     background: #FFF1AF;
     transition: .3s ease-in-out all;
+}
+.main__order-cards-2{
+    flex-wrap: wrap;
+}
+.main__order-cards-2 span{
+    font-size: 22px;
+}
+.main__order-cards-2 p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 2%;
+}
+.main__order-cards-2 ul,
+.main__order-cards-4 ul{
+    line-height: 35px;
+}
+.order-car{
+    width: 396px;
+    height: 274px;
+}
+.main__order-cards-2-order,
+.main__order-cards-3-info,
+.main__order-cards-4-courier{
+    float: right;
+}
+.order-car2{
+    width: 396px;
+    height: 330px;
+}
+.operator-girl{
+    width: 330px;
+    height: 330px;
+}
+.section2{
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+}
+.section2.section2_loaded {
+    animation: loadElement .4s both;
+    z-index: 1;
+}
+.section2.section2_hidden {
+    animation: hideElement .4s ease-in-out both;
+    z-index: -1;
+}
+
+.main__order-btn button.noneclicked2{
+    background: rgba(254,214,49,1);
+}
+.main__order-btn button.clicked2{
+    background: #FFF1AF;
+    box-shadow: inset 0px -1px 0px #FA0606;
+}
+.main__order-btn button:hover{
+    background: #FFF1AF;
+    box-shadow: inset 0px -1px 0px #FA0606;
+}
+.main__partners{
+    margin-bottom: 10%;
+}
+.main__partners-title,
+.main__reviews-title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+    color: #000000;
+    margin: 0 0 5% 12%;
+}
+.main__partners-img{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 6%;
+}
+.main__reviews-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 6%;
+}
+.main__reviews-block img{
+    width: 367px;
+}
+.main__reviews-btn{
+    width: 200px;
+    height: 50px;
+    background: #FDD733;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 14px;
+    margin: 7% 0 10% 45%;
 }
 
 
@@ -569,3 +650,26 @@ footer{
 }
 /* main end */
 
+@keyframes loadElement {
+    from {
+    visibility: hidden;
+    opacity: 0;
+    }
+    
+    to {
+    visibility: visible;
+    opacity: 1;
+    }
+}
+    
+@keyframes hideElement {
+    from {
+    visibility: visible;
+    opacity: 1;
+    }
+    
+    to {
+    visibility: hidden;
+    opacity: 0;
+    }
+}

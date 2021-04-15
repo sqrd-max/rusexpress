@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RuseEpress</title>
-    <link rel="stylesheet" href="assets/css/style-comments.css">
+    <link rel="stylesheet" href="assets/css/style-contacts.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
@@ -41,63 +41,61 @@
         </div>
     </header>
     <div class="main">
-        <h2>ОТЗЫВЫ И ПРЕДЛОЖЕНИЯ</h2>
-        <div class="main__text">
-            <p>
-                Уважаемые клиенты!<br><br>
-                Нам очень важно узнать ваше мнение о работе Компании «Русэкспресс». Пожалуйста, оставьте свой отзыв о качестве нашей работы, указав свой трек номер.<br><br>
-
-                Каждое обращение будет детально рассмотрено нашими специалистами оперативно и качественно, чтобы в будущем мы смогли предложить вам лучший сервис.<br><br>
-
-                Ваша Компания «Русэкспресс».<br><br>
-
-                Если у вас есть трек номер , вы можете его проверить в разделе "Отслеживания".
-            </p>
+        <h2>СВЯЖИТЕСЬ С НАМИ</h2>
+        <div class="main__contacts">
+            <div class="main__contacts-btn">
+                <button id="main__contacts-block1" class="cnt-btn clicked2">
+                    <img src="assets/img/question.png" alt="question" class="cnt-img">
+                    <p>Вопросы и ответы</p>
+                </button>
+                <button  id="main__contacts-block2" class="cnt-btn">
+                    <img src="assets/img/mail.png" alt="mail" class="cnt-img">
+                    <p>Контакты</p>
+                </button>
+                <button  id="main__contacts-block3" class="cnt-btn">
+                    <img src="assets/img/phone.png" alt="phone" class="cnt-img">
+                    <p>Обратный звонок</p>
+                </button>
+            </div>
+            <div class="main__contacts-block">
+                <div class="main__contacts-block1 section3 section3_loaded">
+                    <h3>Популярные вопросы.</h3> 
+                    <p>пока пусто</p>
+                    <h3>Начало работы.</h3>
+                    <p>пока пусто</p>
+                    <h3>Отправление.</h3>
+                    <p>пока пусто</p>
+                    <h3>Отслеживание.</h3>
+                    <p>пока пусто</p>
+                    <h3>Получение отправления.</h3>
+                    <p>пока пусто</p>
+                    <h3>Способы оплаты.</h3>
+                    <p>пока пусто</p>
+                </div>
+                <div class="main__contacts-block2 section3">
+                    <p class="title1">Подпишитесь на наши новости, чтобы получать актуальную информацию.</p>
+                    <div class="email"><input type="text" placeholder="Укажите Email" class="subscribe-email"><button class="subscribe-btn">Подписаться</button></div>
+                    <p class="title2">Больше полезных материалов в наших социальных группах.</p><br>
+                    <div class="contacts-networks">
+                        <div class="vk-inst"><img src="assets/img/footer_vk.png" alt="vk"><a href="#" class="a-network">ВКОНТАКТЕ</a></div>
+                        <div class="vk-inst"><img src="assets/img/footer_inst.png" alt="inst" class="contacts-inst"><a href="#" class="a-network">INSTAGRAM</a><br></div>
+                    </div>
+                    <p class="title3"><span>Не нашли что искали?</span><br>
+                        Позвоните нам и мы обязательно поможем!</p>
+                    <div class="phone">
+                        <img src="assets/img/contact-phone.png" alt="phone">
+                        <p class="phone-number">8-495-109-28-99</p>
+                    </div>
+                </div>
+                <div class="main__contacts-block3 section3">
+                    <p class="title4">Оставьте контактные данные и мы перезвоним Вам в течениe минуты!</p>
+                    <input type="text" class="number-name" placeholder="Введите номер телефона">
+                    <input type="text" class="number-name" placeholder="Введите имя">
+                    <button class="main__contacts-block3-btn">Повоните мне!</button>
+                </div>
+            </div>
         </div>
-        <div class="container">
-            <form action=" ">
-                <div class="row">
-                    <div class="col-25">
-                        <label for="question">Категория вопроса*</label>
-                    </div>
-                    <div class="col-75">
-                        <select id="question" name="question">
-                            <option value="1" disabled selected>Выберете категорию </option>
-                            <option value="2">выбрать</option>
-                            <option value="3">выбрать</option>
-                            <option value="4">выбрать</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="topic">Тема обращения*</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="message">Сообщение*</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-25">
-                        <label for="email">Email*</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text">
-                    </div>
-                </div>
-                <div class="row">
-                    <input type="submit" value="Отправить">
-                </div>
-            </form>
-        </div>
+        
     </div>
     <footer>
         <div class="footer__logo">
@@ -133,6 +131,8 @@
     </footer>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="assets/js/language.js"></script>
+    <script src="assets/js/question.js"></script>
+    <script src="assets/js/card2.js"></script>
     
 </body>
 </html>

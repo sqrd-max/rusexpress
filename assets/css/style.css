@@ -27,10 +27,17 @@ header{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    height: 100px;
+    min-height: 100px;
     background:linear-gradient(rgb(55, 46, 41), rgba(55, 46, 41, 0));
 }
-.navbar__logo{
+.navbar__logo, .navbar__action{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+.navbar__logo1{
     margin-left: 5.5%;
 }
 .navbar__logo-text{
@@ -43,7 +50,6 @@ header{
 }
 .navbar__links{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     margin-left: 2%;
     width: 700px;
@@ -57,7 +63,6 @@ header{
     color: rgb(254, 214, 49);
     border-bottom: 3px solid rgb(254, 214, 49);
     box-sizing: border-box;
-    transition: .3s ease-in-out all;
 }
 .navbar__vl-2{
     border-left: 1px solid rgb(251, 36, 36);
@@ -66,10 +71,10 @@ header{
 }
 /* language */
 .form{
-	margin-left: 2%;
+    margin-left: 4%;
 } 
-select{
-	width: 70px;
+.select-events{
+    width: 70px;
     border: none;
     color: white;
     background-color:  rgba(55, 46, 41, 0.5);
@@ -79,16 +84,16 @@ select{
 
 }
 .icon-ru{
-	background: url('../img/flag-for-russia.png') no-repeat;
-	background-size: 20px;
-	padding-left: 20px; 
-	background-position: 0 1px;
+    background: url('../img/flag-for-russia.png') no-repeat;
+    background-size: 20px;
+    padding-left: 20px; 
+    background-position: 0 1px;
 }
 .icon-en{
-	background: url('../img/flag-for-eng.png') no-repeat;
-	background-size: 20px;
-	padding-left: 20px;
-	background-position: 0 1px;
+    background: url('../img/flag-for-eng.png') no-repeat;
+    background-size: 20px;
+    padding-left: 20px;
+    background-position: 0 1px;
 }
 /* language  end*/
 .navbar__personal-area{
@@ -264,11 +269,9 @@ select{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: space-between; */
 }
 .main__cooperation-cards-1 span{
     font-weight: 900;
-
 }
 .main__cooperation-cards ul{
     list-style-image: url(../img/check.png);
@@ -671,5 +674,141 @@ footer{
     to {
     visibility: hidden;
     opacity: 0;
+    }
+}
+@media screen and (max-width: 1439px){
+    .navbar__logo1{
+        margin-left: 2.5%;
+    }
+}
+@media screen and (max-width: 1385px){
+    .navbar__personal-area{
+        width: 150px;
+        height: 45px;
+        margin-left: 1%;
+    }.navbar__logo{
+        margin: 1% 2% 1% 2.5%;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .navbar__action{
+        margin-left: 5%;
+        width: 90px;
+    }
+    .navbar__logo-text{
+        width: 100px;
+    }
+    .navbar__personal-area{
+        width: 150px;
+        height: 45px;
+        margin-top:  20%;
+    }
+    .navbar__personal-area-text{
+        margin-left: 14px;
+    }
+    .navbar__user-outlined{
+        margin-bottom: 8px;
+    }
+}
+@media screen and (max-width: 1080px){
+    .navbar__action{
+        margin-left: 4%;
+        width: 90px;
+    }
+    .navbar__links a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 1017px){
+    .navbar__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2% 0 2% 0;
+        width: 300px;
+        line-height: 30px;
+    }
+    .navbar__logo{
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 786px){
+    .navbar__links{
+        width: 200px;
+    }
+    .navbar__links a{
+        font-size: 12px;
+    }
+    .navbar__logo{
+        margin-left: 0%;
+    }
+    .navbar__logo1{
+        margin-left: 0%;
+        width: 60px;
+    }
+    .navbar__logo-text{
+        width: 70px;
+    }
+    .navbar__personal-area{
+        width: 115px;
+        height: 45px;
+        margin-left: 0%;
+    }
+    .navbar__personal-area-text{
+        margin-left: 14px;
+        font-size: 12px;
+    }
+    .navbar__user-outlined{
+        width: 30px;
+    }
+    .navbar__vl-2,
+    .navbar__vl{
+        height: 100px; 
+    }
+}
+@media screen and (max-width: 425px){
+    .navbar__links{
+        width: 150px;
+    }
+    .navbar__links a{
+        font-size: 10px;
+        text-align: center;
+    }
+    .navbar__personal-area{
+        width: 100px;
+        height: 35px;
+    }
+    .navbar__personal-area-text{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .navbar__user-outlined{
+        width: 25px;
+    }
+}
+@media screen and (max-width: 370px){
+    .navbar__links{
+        width: 100px;
+    }
+    .navbar__links a{
+        font-size: 8px;
+    }
+    .navbar__personal-area{
+        width: 80px;
+        height: 25px;
+    }
+    .navbar__personal-area-text{
+        margin-left: 7px;
+        font-size: 8px;
+    }
+    .navbar__user-outlined{
+        width: 20px;
+    }
+    .navbar__logo1{
+        width: 40px;
+    }
+    .navbar__logo-text{
+        width: 50px;
     }
 }

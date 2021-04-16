@@ -307,7 +307,7 @@ footer{
         line-height: 30px;
     }
     .navbar__logo{
-        margin-right: 2%;
+        margin: 0 2% 0 20%;
     }
 }
 @media screen and (max-width: 786px){
@@ -318,7 +318,7 @@ footer{
         font-size: 12px;
     }
     .navbar__logo{
-        margin-left: 0%;
+        margin-left: 17%;
     }
     .navbar__logo1{
         margin-left: 0%;
@@ -342,6 +342,16 @@ footer{
     .navbar__vl-2,
     .navbar__vl{
         height: 100px; 
+    }
+}
+@media screen and (max-width: 550px){
+    .navbar__logo{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 480px){
+    .navbar__logo{
+        margin-left: 0%;
     }
 }
 @media screen and (max-width: 425px){

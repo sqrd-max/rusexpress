@@ -164,7 +164,6 @@ body{
 .main__contacts-block3{
     width: 906px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 2.5%;
@@ -411,6 +410,10 @@ footer{
     .navbar__user-outlined{
         margin-bottom: 8px;
     }
+    .main__contacts{
+        margin: 0 0 14% 10%;
+    }
+
 }
 @media screen and (max-width: 1080px){
     .navbar__action{
@@ -431,8 +434,35 @@ footer{
         line-height: 30px;
     }
     .navbar__logo{
-        margin-right: 2%;
+        margin: 0 2% 0 20%;
     }
+    .main__contacts{
+        margin: 0 0 14% 5%;
+    }
+    .main h2{
+        margin: 5.5% 0 2.2% 25%;
+    }
+}
+@media screen and (max-width: 970px){
+    .main__contacts,
+    .main__contacts-block,
+    .main__contacts-block2,
+    .main__contacts-block3{
+        width: 800px;
+    }
+    
+}
+@media screen and (max-width: 870px){
+    .main__contacts,
+    .main__contacts-block,
+    .main__contacts-block2,
+    .main__contacts-block3{
+        width: 700px;
+    }
+    .main__contacts{
+        margin: 0 0 14% 2%;
+    }
+    
 }
 @media screen and (max-width: 786px){
     .navbar__links{
@@ -442,7 +472,7 @@ footer{
         font-size: 12px;
     }
     .navbar__logo{
-        margin-left: 0%;
+        margin-left: 17%;
     }
     .navbar__logo1{
         margin-left: 0%;
@@ -467,8 +497,39 @@ footer{
     .navbar__vl{
         height: 100px; 
     }
+    .main__contacts,
+    .main__contacts-block,
+    .main__contacts-block2,
+    .main__contacts-block3{
+        width: 500px;
+    }
+    .main h2{
+        font-size: 25px;
+        margin: 5.5% 0 2.2% 25%;
+    }
+    .title2{
+        width: 400px;
+        margin-bottom: 6%;
+    }
+    .contacts-networks{
+        width: 370px;
+    }
+    .a-network{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 550px){
+    .navbar__logo{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 480px){
+    .navbar__logo{
+        margin-left: 0%;
+    }
 }
 @media screen and (max-width: 425px){
+    
     .navbar__links{
         width: 150px;
     }
@@ -486,6 +547,94 @@ footer{
     }
     .navbar__user-outlined{
         width: 25px;
+    }
+    .main__contacts,
+    .main__contacts-block,
+    .main__contacts-block2,
+    .main__contacts-block3{
+        width: 350px;
+    }
+    .main h2{
+        font-size: 20px;
+        margin: 5.5% 0 2.2% 25%;
+    }
+    .title2{
+        width: 400px;
+        margin-bottom: 6%;
+    }
+    .contacts-networks{
+        width: 370px;
+    }
+    .a-network{
+        font-size: 20px;
+    }
+    .cnt-btn{
+        width: 200px;
+        height: 80px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .cnt-img{
+        width: 30px;
+    }
+    .title1{
+        text-align: center;
+        width: 300px;
+        height: 59px;
+        font-size: 14px;
+        line-height: 18px;
+        
+    }
+    .email{
+        margin-bottom: 3%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .subscribe-email{
+        width: 200px;
+        height: 35px;
+        letter-spacing: 2px;
+
+    }
+    .subscribe-btn{
+        width: 70px;
+        height: 35px;
+        font-size: 8px;
+        
+    }
+    .title2,
+    .title3{
+        width: 300px;
+        height: 22px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 15%;
+    }
+    .contacts-networks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 300px;
+        margin-bottom: 2%;
+    }
+    .a-network{
+        font-size: 15px;
+        line-height: 24px;
+        text-decoration: none;
+        color: black;
+        margin-left: 7px;
+    }
+    .title4{
+        width: 300px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .number-name{
+        width: 300px;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 3%;
     }
 }
 @media screen and (max-width: 370px){
@@ -511,6 +660,110 @@ footer{
     }
     .navbar__logo-text{
         width: 50px;
+    }
+    .main__contacts{
+        margin-left: 10%;
+    }
+    .main__contacts,
+    .main__contacts-block,
+    .main__contacts-block2,
+    .main__contacts-block3{
+        width: 250px;
+    }
+    .main__contacts-block h3{
+        font-size: 10px;
+    }
+    .title2{
+        width: 200px;
+        margin-bottom: 10%;
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .contacts-networks{
+        width: 370px;
+    }
+    .a-network{
+        font-size: 20px;
+    }
+    .cnt-btn{
+        width: 83.3px;
+        height: 50px;
+        font-size: 8px;
+        line-height: 13px;
+    }
+    .cnt-img{
+        width: 17px;
+    }
+    .title1{
+        margin-bottom: 20%;
+    }
+    .title1,
+    .title3{
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+        line-height: 15px;
+        
+    }
+    .subscribe-email{
+        width: 150px;
+        height: 25px;
+        font-size: 10px;
+    
+    }
+    .subscribe-btn{
+        width: 50px;
+        height: 25px;
+        font-size: 6px;
+        padding-left: 5px;
+        
+    }
+    .contacts-networks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 200px;
+        margin-bottom: 2%;
+    }
+    .contacts-networks img{
+        height: 10px;
+    }
+    .a-network{
+        font-size: 15px;
+        line-height: 24px;
+        text-decoration: none;
+        color: black;
+        margin-left: 7px;
+    }
+    .title4{
+        width: 200px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 30%;
+    }
+    .phone-number{
+        font-size: 15px;
+        line-height: 24px;
+        margin-left: 3%;
+    }
+    .number-name{
+        width: 200px;
+        height: 30px;
+        padding: 10px;
+        margin-bottom: 3%;
+        font-size: 10px;
+    }
+    .phone{
+        justify-content: center;
+    }
+    .main__contacts-block3-btn{
+        width: 200px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .main h2{
+        font-size: 20px;
+        margin: 5.5% 0 2.2% 15%;
     }
 }
 

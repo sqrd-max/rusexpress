@@ -389,3 +389,122 @@ footer{
         width: 50px;
     }
 }
+
+/* медиа Алены*/
+
+@media screen and (max-width: 1400px) {
+    .main__text {
+    margin-left: 15%;
+    }
+
+    .main h2{
+        margin-left: 15%;
+    }
+
+    .container {
+        margin-left: 15%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .main__text {
+    margin-left: 10%;
+    }
+
+    .main h2{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    .container {
+        margin-left: 10%;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .main__text {
+    margin-left: 7%;
+    margin-right: 7%;
+    }
+
+    .main h2{
+        margin-left: 7%;
+        margin-bottom: 15px;
+    }
+
+    .container {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .main__text {
+    margin-left: 5%;
+    margin-right: 5%;
+    }
+
+    .main h2{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .container {
+        margin-left: 5%;
+    }
+    
+    .container input[type=text], 
+    .container select {
+    width: 320px;
+    }
+}
+
+@media screen and (max-width: 600px) { 
+    .container input[type=text], 
+    .container select {
+    width: 300px;
+    }
+
+    .container {
+        margin-left: 17%;
+        margin-right: 5%;
+    }
+
+    input[type=submit] {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main__text {
+    margin-left: 5%;
+    margin-right: 4%;
+    }
+
+    .main h2{
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 5px;
+        text-align: left;
+    }
+
+    .container {
+        margin-left: 16%;
+        margin-right: 5%;
+    }
+
+    input[type=submit] {
+        margin-left: 5%;
+    }
+
+    .container input[type=text], 
+    .container select {
+    width: 250px;
+    }
+}

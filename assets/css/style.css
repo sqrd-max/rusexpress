@@ -17,18 +17,27 @@ a{
     text-decoration: none;
     color: black;
 }
-header{
+/* header{
+    /* background-image: url(../img/background-1.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100%; */
+    /* min-height: 800px;
+} */ 
+.top{
     background-image: url(../img/background-1.png);
     background-repeat: no-repeat;
     height: 800px;
     background-size: 100%;
+    padding-top: 4%;
+    margin-top: -3px;
 }
 .navbar{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     min-height: 100px;
-    background:linear-gradient(rgb(55, 46, 41), rgba(55, 46, 41, 0));
+    background:rgb(55, 46, 41);
 }
 .navbar__logo, .navbar__action{
     display: flex;
@@ -115,12 +124,21 @@ header{
     margin-bottom: 8px;
 }
 .top__header-title{
-    width: 700px;
-    margin: 4% 0 80px 7%;
+    width: 697px;
+    height: 155px;
+    margin: 3% 0 1% 7%;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: uppercase;
 }
 .top__header-text{
     margin-left: 7%;
-    width: 480px;
+    width: 479px;
+    height: 62px;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: uppercase;
 }
 .main{
     -webkit-box-flex: 1;
@@ -128,7 +146,7 @@ header{
     flex: 1 0 auto;
 }
 .main__tracking{
-    height: 750px;
+    min-height: 750px;
     background:linear-gradient(rgba(255,255,255,1), rgba(255,225,94,0.8),rgba(255,255,255,0.7));
 }
 .main__tracking-input{
@@ -166,7 +184,7 @@ header{
     margin: 1% 6% 2% 0;
 }
 .main__tracking-input-track{
-    margin-left: 24%;
+    margin-left: 25.5%;
 }
 .input-treck1{
     width: 550px;
@@ -690,6 +708,21 @@ footer{
         margin: 1% 2% 1% 2.5%;
         width: 90px;
     }
+    .top__header-title{
+        margin: 4% 0 1% 5%;
+        font-size: 50px;
+    }
+    .top__header-text{
+        margin-left: 5%;
+        font-size: 16px;
+    }
+    .main__tracking-input{
+        margin: 10% 0 0 13%;
+        max-width: 1009px;
+    }
+    .main__tracking-car{
+        margin: -50px 0 0 6%;
+    }
 }
 @media screen and (max-width: 1200px){
     .navbar__action{
@@ -710,6 +743,22 @@ footer{
     .navbar__user-outlined{
         margin-bottom: 8px;
     }
+    .top__header-title{
+        width: 550px;
+        margin: 2% 0 1% 3%;
+        font-size: 45px;
+    }
+    .top__header-text{
+        margin-left: 3%;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main__tracking-input{
+        margin: 8% 0 0 8%;
+    }
+    .main__tracking-car{
+        margin: -50px 0 0 1%;
+    }
 }
 @media screen and (max-width: 1080px){
     .navbar__action{
@@ -719,6 +768,32 @@ footer{
     .navbar__links a{
         font-size: 14px;
     }
+    .top{
+        height: 700px;
+    }
+    .main__tracking-input{
+        width: 900px;
+    }
+    .main__tracking-car{
+        height: 240px;
+    }
+    .main__tracking-input-title{
+        width: 500px;
+        font-size: 35px;
+        line-height: 43px;
+        margin-right: 4%;
+    }
+    .main__tracking-input-text{
+        width: 500px;
+        font-size: 18px;
+        line-height: 24px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 500px;
+        height: 50px;
+    }
+   
 }
 @media screen and (max-width: 1017px){
     .navbar__links{
@@ -732,8 +807,69 @@ footer{
     .navbar__logo{
         margin-right: 2%;
     }
+    .top{
+        height: 600px;
+    }
+    .top__header-title{
+        width: 550px;
+        line-height: 55px;
+    }
+    .main__tracking-input{
+        width: 800px;
+        height: 260px;
+    }
+    .main__tracking-car{
+        height: 200px;
+    }
+    .main__tracking-input-title{
+        width: 500px;
+        font-size: 35px;
+        line-height: 43px;
+        margin-right: 4%;
+    }
+    .main__tracking-input-text{
+        width: 480px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 450px;
+        height: 45px;
+    }
+    .main__tracking-input-track-search{
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 850px){
+    .top__header-title{
+        width: 550px;
+        line-height: 55px;
+    }
+    .main__tracking-input{
+        width: 700px;
+        height: 260px;
+    }
+    .main__tracking-car{
+        height: 170px;
+        margin-top: -20px;
+    }
+    .input-treck1{
+        width: 370px;
+        height: 45px;
+    }
+    .main__tracking-input-track-search{
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+    }
 }
 @media screen and (max-width: 786px){
+    header{
+        height: 500px;
+    }
     .navbar__links{
         width: 200px;
     }
@@ -766,6 +902,248 @@ footer{
     .navbar__vl{
         height: 100px; 
     }
+    .top__header-title{
+        width: 450px;
+        height: 70px;
+        margin: 2% 0 6% 3%;
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .top__header-text{
+        font-size: 12px;
+    }
+    .main__tracking{
+        margin-top: 35%;
+    }
+    .main__tracking-input{
+        width: 650px;
+        height: 240px;
+    }
+    .main__tracking-car{
+        height: 150px;
+        margin-top: 10px;
+    }
+    .main__tracking-input-title{
+        width: 400px;
+        font-size: 30px;
+        line-height: 38px;
+        margin: 4% 4% 0 0;
+    }
+    .main__tracking-input-text{
+        width: 400px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 360px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .main__tracking-input-track-search{
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .main__tracking-rus{
+        width: 684px;
+        height: 146px;
+        font-size: 40px;
+        margin-left: 12%;
+        line-height: 45px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .top{
+        height: 400px;
+    }
+    .main__tracking{
+        margin-top: 25%;
+    }
+    .main__tracking-input{
+        width: 450px;
+        height: 170px;
+    }
+    .main__tracking-car{
+        height: 120px;
+        margin-top: -20px;
+    }
+    .main__tracking-input-title{
+        width: 300px;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 4% 4% 0 0;
+    }
+    .main__tracking-input-text{
+        width: 300px;
+        font-size: 10px;
+        line-height: 15px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 245px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .main__tracking-input-track-search{
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .main__cooperation-cards-1 span{
+        font-weight: 900;
+    }
+    
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 250px;
+    }
+    .main__cooperation-cards-text2{
+        width: 300px;
+        font-size: 15px;
+    }
+    .main__cooperation-cards ul{
+        font-size: 12px;
+    }
+    .main__cooperation-cards-1-time{
+        height: 140px;
+    }
+    .main__cooperation-cards-1-tracking{
+        height: 140px;
+    }
+    .card4{
+        width: 300px;
+    }
+    .main__cooperation-cards{
+        margin-right: 2%;
+    }
+    
+}
+@media screen and (max-width: 570px){
+    .top__header-title{
+        width: 300px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .top__header-text{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main__tracking{
+        margin-top: 15%;
+    }
+    
+}
+@media screen and (max-width: 540px){
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 200px;
+    }
+    .main__cooperation-cards-text{
+        width: 250px;
+        font-size: 10px;
+    }
+    .main__cooperation-cards-1-time{
+        height: 120px;
+        margin-left: 4%;
+    }
+    .main__cooperation-cards-text2{
+        width: 250px;
+        font-size: 15px;
+    }
+    .main__cooperation-cards-2{
+        width: 420px;
+    }
+    .main__cooperation-btn{
+        width: 330px;
+        height: 68px;
+        font-size: 24px;
+        line-height: 29px;
+        padding-top: 19px;
+        margin-left: 12%;
+    }
+    .main__cooperation-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main__cooperation-buttons{
+        width: 300px;
+        margin-right: 7%;
+    }
+    .main__cooperation-buttons button{
+        width: 400px;
+        height: 50px;
+        margin: 0 0 3% 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main__tracking-rus{
+        width: 684px;
+        height: 146px;
+        font-size: 30px;
+        margin-left: 12%;
+        line-height: 35px;
+        margin-bottom: -30px;
+    }
+    .point{
+        width: 20px;
+    }
+    .main__animation-cities{
+        margin-top: -102px;
+    }
+    .main__animation-cities p{
+        font-size: 8px;
+    }
+    .city-txt{
+        width: 20px;
+        margin-top: -10px;
+    }
+    .main__car{
+        width: 100px;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 486px){
+    .main__cooperation-cards-1 p{
+        font-size: 13px;
+    }
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 150px;
+    }
+    .main__cooperation-cards-text{
+        width: 230px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main__cooperation-cards-text2{
+        width: 250px;
+        font-size: 13px;
+    }
+    .main__cooperation-cards-2{
+        width: 420px;
+    }
+    .main__cooperation-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main__cooperation-buttons{
+        width: 300px;
+        margin-right: 7%;
+    }
+    .main__cooperation-buttons button{
+        width: 400px;
+        height: 50px;
+        margin: 0 0 3% 0;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main__cooperation-cards-1-tracking{
+        height: 120px;
+    }
+    .card4{
+        width: 200px;
+    }
 }
 @media screen and (max-width: 425px){
     .navbar__links{
@@ -785,6 +1163,98 @@ footer{
     }
     .navbar__user-outlined{
         width: 25px;
+    }
+    .top__header-title{
+        height: 40px;
+        width: 180px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .top__header-text{
+        width: 200px;
+        font-size: 7px;
+        line-height: 15px;
+    }
+    .main__tracking-input{
+        width: 300px;
+        height: 120px;
+    }
+    .main__tracking-car{
+        height: 70px;
+        margin-top: -10px;
+    }
+    .main__tracking-input-title{
+        width: 200px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 4% 4% 0 0;
+    }
+    .main__tracking-input-text{
+        width: 200px;
+        font-size: 8px;
+        line-height: 10px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 170px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .main__tracking-input-track-search{
+        width: 40px;
+        height: 15px;
+        font-size: 6px;
+    }
+    .main__cooperation-buttons button{
+        width: 250px;
+        height: 40px;
+        margin: 0 0 3% 0;
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+    .main__cooperation-cards-1 p{
+        font-size: 13px;
+    }
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 120px;
+    }
+    .main__cooperation-cards-text{
+        width: 200px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .main__cooperation-cards ul{
+        font-size: 10px;
+    }
+    .main__cooperation-cards-text2{
+        width: 200px;
+        font-size: 10px;
+    }
+    .main__cooperation-cards-2{
+        width: 400px;
+    }
+    .main__cooperation-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card4{
+        width: 200px;
+    }
+    .main__cooperation-btn{
+        width: 270px;
+        height: 55px;
+        font-size: 20px;
+        line-height: 29px;
+        padding-top: 12px;
+        margin-left: 8%;
+    }
+    .main__tracking-rus{
+        font-size: 20px;
+        margin-left: 8%;
+        line-height: 25px;
+        margin-bottom: -60px;
     }
 }
 @media screen and (max-width: 370px){
@@ -811,4 +1281,92 @@ footer{
     .navbar__logo-text{
         width: 50px;
     }
+    .top__header-title{
+        height: 40px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .top__header-text{
+        width: 150px;
+        font-size: 5px;
+        line-height: 10px;
+    }
+    .top{
+        height: 200px;
+    }
+    header{
+        height: 400px;
+    }
+    .main__tracking-input{
+        width: 270px;
+        height: 120px;
+        margin-bottom: 20%;
+    }
+    .main__tracking-car{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .main__tracking-input-text{
+        width: 150px;
+        font-size: 7px;
+        line-height: 10px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 145px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .main__tracking-input-track-search{
+        width: 40px;
+        height: 14px;
+        font-size: 6px;
+    }
+    
+}
+@media screen and (max-width: 356px){
+    .main__cooperation-cards-1 p{
+        font-size: 12px;
+    }
+    .main__cooperation-cards-1-courier{
+        margin-top: -60px;
+        height: 120px;
+        margin-left: 60%;
+    }
+    .main__cooperation-cards-text{
+        width: 200px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .main__cooperation-cards ul{
+        font-size: 10px;
+    }
+    .main__cooperation-cards-text2{
+        width: 140px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main__cooperation-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .card4{
+        width: 150px;
+        font-size: 15px;
+    }
+    .main__cooperation-cards-1-time{
+       height: 80px;
+    }
+    .main__cooperation-cards-1-tracking{
+        height: 80px;
+    }
+    .main__cooperation-title{
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 8%;
+    }
+    .main__cooperation-block{
+        margin-left: 8%;
+    }
+    
 }

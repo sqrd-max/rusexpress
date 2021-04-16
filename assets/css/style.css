@@ -410,11 +410,13 @@ a{
 }
 .main__order{
     margin: 9% 0 10% 11%;
+    max-width: 1177px;
 
 }
 .main__order-btn{
     display: flex;
     flex-wrap: nowrap;
+    max-width: 1177px;
 }
 .main__order-btn button{
     display: flex;
@@ -442,6 +444,7 @@ a{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
 
 }
@@ -723,6 +726,10 @@ footer{
     .main__tracking-car{
         margin: -50px 0 0 6%;
     }
+    .main__order{
+        margin-left: 7%;
+        margin-right: 3%;
+    }
 }
 @media screen and (max-width: 1200px){
     .navbar__action{
@@ -758,6 +765,11 @@ footer{
     }
     .main__tracking-car{
         margin: -50px 0 0 1%;
+    }
+    
+    .order-car{
+        width: 296px;
+        height: 174px;
     }
 }
 @media screen and (max-width: 1080px){
@@ -842,6 +854,52 @@ footer{
         height: 45px;
         font-size: 14px;
     }
+    .order-pc{
+        width: 300px;
+        height: 320px;
+    }
+    .main__order-cards-1{
+        font-size: 15px;
+        
+    }
+    .main__order-cards-2-txt{
+        width: 540px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 20px;
+    }
+    .main__order-cards-2 p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    .main__order-cards-2-txt{
+        width: 400px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 20px;
+    }
+    .main__order-cards-2 p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .order-car{
+        width: 240px;
+        height: 134px;
+    }
 }
 @media screen and (max-width: 850px){
     .top__header-title{
@@ -865,7 +923,13 @@ footer{
         height: 45px;
         font-size: 14px;
     }
+    .order-pc{
+        width: 250px;
+        height: 270px;
+    }
+    
 }
+
 @media screen and (max-width: 786px){
     header{
         height: 500px;
@@ -952,6 +1016,47 @@ footer{
         margin-left: 12%;
         line-height: 45px;
     }
+    .order-pc{
+        width: 200px;
+        height: 220px;
+    }
+    .main__order-cards-1-text{
+        width: 400px;
+        font-size: 15px;
+    }
+    .main__order-cards p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main__order-cards span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__order-cards-2-order{
+        float: left;
+    } 
+}
+@media screen and (max-width: 725px) {
+    .main__order-cards-2-txt{
+        width: 300px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 18px;
+    }
+    .main__order-cards-2 p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .order-car{
+        width: 240px;
+        height: 134px;
+    }
 }
 @media screen and (max-width: 650px) {
     .top{
@@ -1017,7 +1122,76 @@ footer{
     .main__cooperation-cards{
         margin-right: 2%;
     }
+    .order-pc{
+        width: 200px;
+        height: 220px;
+    }
+    .main__order-cards-1-text{
+        width: 300px;
+        font-size: 15px;
+        line-height: 10px;
+    }
+    .main__order-cards p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main__order-cards span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .main__order-cards ul{
+        line-height: 25px;
+    }
+    .main__order-cards{
+        height: 450px;
+    }
+    .main__order-cards-1-reg,
+    .main__order-cards-2-order,
+    .main__order-cards-3-info,
+    .main__order-cards-4-courier{
+        width: 200px;
+        height: 45px;
+    }
+    .main__order-cards-1-auth{
+        width: 90px;
+        height: 45px;
+        padding-top: 10px;
+    }
+    .main__order-cards-2 span{
+        font-size: 16px;
+    }
+    .main__order-cards-2 p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 12px;
+        line-height: 20px;
+    }
     
+}
+@media screen and (max-width: 600px) {
+    .main__order-cards-2-txt{
+        width: 250px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 18px;
+    }
+    .main__order-cards-2 p{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .order-car{
+        width: 240px;
+        height: 134px;
+    }
 }
 @media screen and (max-width: 570px){
     .top__header-title{
@@ -1031,6 +1205,45 @@ footer{
     }
     .main__tracking{
         margin-top: 15%;
+    }
+    .main__order-btn button{
+        width: 240px;
+        height: 100px;
+    }
+    .main__order-btn button p{
+        font-size: 12px;
+    }
+    .icon{
+        width: 30px;
+    }
+    .main__order-cards-2-txt{
+        width: 200px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 14px;
+    }
+    .main__order-cards-2 p{
+        font-size: 10px;
+        line-height: 20px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 8px;
+        line-height: 20px;
+        list-style-image: url(../img/order-check2.png);
+    }
+    .main__order-cards-2 li{
+        padding-bottom: 4px;
+    }
+    .order-car{
+        width: 240px;
+        height: 134px;
+    }
+    .main__order-cards-2-order{
+        width: 150px;
+        height: 35px;
+        padding-top: 7px;
     }
     
 }
@@ -1102,6 +1315,59 @@ footer{
         width: 100px;
         margin-top: 5%;
     }
+    .order-pc{
+        width: 200px;
+        height: 220px;
+    }
+    .main__order-cards-1-text{
+        width: 200px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .main__order-cards p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main__order-cards span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .main__order-cards ul{
+        line-height: 25px;
+    }
+    .main__order-cards{
+        height: 450px;
+    }
+    .main__order-cards-2-txt{
+        width: 200px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span{
+        font-size: 12px;
+    }
+    .main__order-cards-2 p{
+        font-size: 8px;
+        line-height: 18px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul{
+        font-size: 8px;
+        line-height: 20px;
+        list-style-image: url(../img/order-check2.png);
+    }
+    .main__order-cards-2 li{
+        padding-bottom: 4px;
+    }
+    .order-car{
+        width: 200px;
+        height: 115px;
+    }
+    .main__order-cards-2-order{
+        width: 150px;
+        height: 35px;
+        padding-top: 7px;
+    }
+    
 }
 @media screen and (max-width: 486px){
     .main__cooperation-cards-1 p{
@@ -1143,6 +1409,16 @@ footer{
     }
     .card4{
         width: 200px;
+    }
+    .main__order-btn button{
+        width: 200px;
+        height: 80px;
+    }
+    .main__order-btn button p{
+        font-size: 10px;
+    }
+    .icon{
+        width: 20px;
     }
 }
 @media screen and (max-width: 425px){
@@ -1256,6 +1532,43 @@ footer{
         line-height: 25px;
         margin-bottom: -60px;
     }
+    .order-pc{
+        width: 120px;
+        height: 120px;
+    }
+    .main__order-cards-1-text{
+        width: 200px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .main__order-cards p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .main__order-cards span{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .main__order-cards ul{
+        line-height: 20px;
+    }
+    .main__order-cards{
+        height: 380px;
+    }
+    .main__order-cards-1-reg{
+        width: 150px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .main__order-cards-1-auth{
+        width: 60px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .main__order-cards-1-reg-auth{
+        width: 250px;
+        
+    }
 }
 @media screen and (max-width: 370px){
     .navbar__links{
@@ -1367,6 +1680,53 @@ footer{
     }
     .main__cooperation-block{
         margin-left: 8%;
+    }
+    .order-pc{
+        width: 80px;
+        height: 80px;
+    }
+    .main__order-cards-1-text{
+        width: 180px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .main__order-cards p{
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .main__order-cards span{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .main__order-cards ul{
+        line-height: 20px;
+    }
+    .main__order-cards{
+        height: 380px;
+    }
+    .main__order-cards-1-reg{
+        width: 150px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .main__order-cards-1-auth{
+        width: 60px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .main__order-cards-1-reg-auth{
+        width: 250px;
+        margin-left: 8%;
+    }
+    .main__order-btn button{
+        width: 100px;
+        height: 80px;
+    }
+    .main__order-btn button p{
+        font-size: 8px;
+    }
+    .main__order-cards{
+        height: 350px;
     }
     
 }

@@ -508,6 +508,10 @@ a{
 .main__order-cards-2{
     flex-wrap: wrap;
 }
+.main__order-cards-2-txt{
+    width: 700px;
+    margin-left: 2%;
+}
 .main__order-cards-2 span{
     font-size: 22px;
 }

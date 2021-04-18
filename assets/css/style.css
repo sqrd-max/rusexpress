@@ -446,7 +446,10 @@ a{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
+}
+.main__order-cards-3,
+.main__order-cards-4{
+    flex-wrap: wrap;
 }
 .main__order-cards span{
     font-weight: 600;
@@ -778,6 +781,10 @@ footer{
     .footer__contacts-networks__img1 {
         margin-left: -7px;
     }
+    .order-car2{
+        width: 350px;
+        height: 280px;
+    }
 }
 @media screen and (max-width: 1080px){
     .navbar__action{
@@ -824,7 +831,7 @@ footer{
         line-height: 30px;
     }
     .navbar__logo{
-        margin-right: 2%;
+        margin: 0 2% 0 20%;
     }
     .top{
         height: 600px;
@@ -884,6 +891,14 @@ footer{
     .main__order-cards-2 ul{
         font-size: 14px;
     }
+    .order-car2{
+        width: 300px;
+        height: 250px;
+    }
+    .operator-girl {
+        width: 300px;
+        height: 300px;
+    }
 
 }
 @media screen and (max-width: 950px) {
@@ -891,15 +906,21 @@ footer{
         width: 400px;
         margin-left: 2%;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 20px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 14px;
         line-height: 24px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 14px;
         line-height: 24px;
     }
@@ -907,6 +928,11 @@ footer{
         width: 240px;
         height: 134px;
     }
+    .operator-girl {
+        width: 250px;
+        height: 250px;
+    }
+    
 }
 @media screen and (max-width: 850px){
     .top__header-title{
@@ -935,6 +961,7 @@ footer{
         height: 270px;
     }
     
+    
 }
 
 @media screen and (max-width: 820px) {
@@ -956,7 +983,7 @@ footer{
         font-size: 12px;
     }
     .navbar__logo{
-        margin-left: 0%;
+        margin-left: 17%;
     }
     .navbar__logo1{
         margin-left: 0%;
@@ -1047,24 +1074,43 @@ footer{
         font-size: 20px;
         line-height: 24px;
     }
-    .main__order-cards-2-order{
+    .main__order-cards-2-order,
+    .main__order-cards-3-info{
         float: left;
     } 
+    .order-car2{
+        width: 250px;
+        height: 200px;
+    }
+    .operator-girl {
+        width: 200px;
+        height: 200px;
+    }
+    .main__reviews-btn{
+        margin: 7% 0 10% 35%;
+    }
+
 }
 @media screen and (max-width: 725px) {
     .main__order-cards-2-txt{
         width: 300px;
         margin-left: 2%;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 18px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 12px;
         line-height: 20px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 14px;
         line-height: 24px;
     }
@@ -1072,7 +1118,10 @@ footer{
         width: 240px;
         height: 134px;
     }
+    
+    
 }
+
 @media screen and (max-width: 650px) {
     .top{
         height: 400px;
@@ -1172,17 +1221,31 @@ footer{
         height: 45px;
         padding-top: 10px;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 16px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 12px;
         line-height: 18px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 12px;
         line-height: 20px;
+    }
+    
+    
+}
+@media screen and (max-width: 625px) {
+    .order-car2{
+        width: 200px;
+        height: 150px;
     }
     
 }
@@ -1191,15 +1254,21 @@ footer{
         width: 250px;
         margin-left: 2%;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 18px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 12px;
         line-height: 20px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 10px;
         line-height: 24px;
     }
@@ -1214,8 +1283,15 @@ footer{
     .footer__contacts-inst{
         margin-left: 0;
     }
+    .main__reviews-title{
+        font-size: 50px;
+        line-height: 63px;
+    }
 }
 @media screen and (max-width: 570px){
+    .navbar__logo{
+        margin-left: 10%;
+    }
     .top__header-title{
         width: 300px;
         font-size: 25px;
@@ -1242,15 +1318,21 @@ footer{
         width: 200px;
         margin-left: 2%;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 14px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 10px;
         line-height: 20px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 8px;
         line-height: 20px;
         list-style-image: url(../img/order-check2.png);
@@ -1262,11 +1344,13 @@ footer{
         width: 240px;
         height: 134px;
     }
-    .main__order-cards-2-order{
+    .main__order-cards-2-order,
+    .main__order-cards-3-info{
         width: 150px;
         height: 35px;
         padding-top: 7px;
     }
+    
     
 }
 @media screen and (max-width: 540px){
@@ -1364,31 +1448,36 @@ footer{
         width: 200px;
         margin-left: 2%;
     }
-    .main__order-cards-2 span{
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
         font-size: 12px;
     }
-    .main__order-cards-2 p{
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
         font-size: 8px;
         line-height: 18px;
         margin-top: 2%;
     }
-    .main__order-cards-2 ul{
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
         font-size: 8px;
         line-height: 20px;
         list-style-image: url(../img/order-check2.png);
-    }
-    .main__order-cards-2 li{
-        padding-bottom: 4px;
     }
     .order-car{
         width: 200px;
         height: 115px;
     }
-    .main__order-cards-2-order{
+    .main__order-cards-2-order,
+    .main__order-cards-3-info{
         width: 150px;
         height: 35px;
         padding-top: 7px;
     }
+    
     
 }
 
@@ -1424,6 +1513,9 @@ footer{
 }
 
 @media screen and (max-width: 486px){
+    .navbar__logo{
+        margin-left: 0%;
+    }
     .main__cooperation-cards-1 p{
         font-size: 13px;
     }
@@ -1474,6 +1566,61 @@ footer{
     .icon{
         width: 20px;
     }
+    .operator-girl {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 452px){
+    .main__order-cards-2-txt{
+        width: 400px;
+        margin-left: 2%;
+    }
+    .main__order-cards-2 span,
+    .main__order-cards-3 span,
+    .main__order-cards-4 span{
+        font-size: 12px;
+    }
+    .main__order-cards-2 p,
+    .main__order-cards-3 p,
+    .main__order-cards-4 p{
+        font-size: 8px;
+        line-height: 18px;
+        margin-top: 2%;
+    }
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
+        font-size: 8px;
+        line-height: 20px;
+        list-style-image: url(../img/order-check2.png);
+    }
+    .order-car{
+        width: 200px;
+        height: 115px;
+    }
+    .main__order-cards-2-order,
+    .main__order-cards-3-info,
+    .main__order-cards-4-courier{
+        width: 150px;
+        height: 35px;
+        padding-top: 7px;
+        margin-left: 35%;
+    }
+    .main__order-cards-4-courier{
+        margin-right: 25%;
+    }
+    .main__reviews-block img{
+        width: 250px;
+    }
+    .main__reviews-btn{
+        margin: 7% 0 10% 30%;
+    }
+    .main__reviews-title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    
 }
 @media screen and (max-width: 425px){
     .navbar__links{
@@ -1595,10 +1742,6 @@ footer{
         font-size: 10px;
         line-height: 10px;
     }
-    .main__order-cards p{
-        font-size: 12px;
-        line-height: 24px;
-    }
     .main__order-cards span{
         font-size: 14px;
         line-height: 24px;
@@ -1621,7 +1764,43 @@ footer{
     }
     .main__order-cards-1-reg-auth{
         width: 250px;
-        
+    }
+    .main__order-cards-2 p{
+        font-size: 8px;
+        line-height: 18px;
+        margin: 2% 0 0 1%;
+    }
+    .main__order-cards-3 p,
+    .main__order-cards-3 p{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .operator-girl{
+        width: 100px;
+        height: 100px;
+    }
+    .main__order-cards-3-info,
+    .main__order-cards-4-courier{
+        width: 100px;
+        height: 25px;
+    }
+    .main__order-cards-4-courier{
+        padding-top: 4px;
+        margin-right: 35%;
+
+    }
+}
+@media screen and (max-width: 380px){
+    .order-car{
+        width: 150px;
+        height: 95px;
+        margin: -40px 0 0 60%; 
     }
 }
 @media screen and (max-width: 370px){
@@ -1689,6 +1868,14 @@ footer{
         height: 14px;
         font-size: 6px;
     }
+    .main__reviews-btn{
+        margin: 7% 0 10% 20%;
+    }
+    .main__reviews-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    
     
 }
 @media screen and (max-width: 356px){
@@ -1744,7 +1931,7 @@ footer{
         font-size: 8px;
         line-height: 10px;
     }
-    .main__order-cards p{
+    .main__order-cards-1-text p{
         font-size: 10px;
         line-height: 24px;
     }
@@ -1794,4 +1981,19 @@ footer{
         margin-top: 0;
     }
     
+    .order-car{
+        width: 150px;
+        height: 95px;
+        margin: -100px 0 0 60%; 
+    }
+    .main__order-cards-2 ul,
+    .main__order-cards-3 ul,
+    .main__order-cards-4 ul{
+        font-size: 8px;
+        line-height: 16px;
+    }
+    .order-car2{
+        width: 150px;
+        height: 120px;
+    }
 }

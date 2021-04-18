@@ -346,7 +346,7 @@ footer{
         line-height: 30px;
     }
     .navbar__logo{
-        margin-right: 2%;
+        margin: 0 2% 0 20%;
     }
 }
 
@@ -405,7 +405,7 @@ footer{
         font-size: 12px;
     }
     .navbar__logo{
-        margin-left: 0%;
+        margin-left: 17%;
     }
     .navbar__logo1{
         margin-left: 0%;
@@ -431,6 +431,71 @@ footer{
         height: 100px; 
     }
 }
+<<<<<<< HEAD
+=======
+@media screen and (max-width: 550px){
+    .navbar__logo{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 480px){
+    .navbar__logo{
+        margin-left: 0%;
+    }
+}
+@media screen and (max-width: 425px){
+    .navbar__links{
+        width: 150px;
+    }
+    .navbar__links a{
+        font-size: 10px;
+        text-align: center;
+    }
+    .navbar__personal-area{
+        width: 100px;
+        height: 35px;
+    }
+    .navbar__personal-area-text{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    .navbar__user-outlined{
+        width: 25px;
+    }
+}
+@media screen and (max-width: 370px){
+    .navbar__links{
+        width: 100px;
+    }
+    .navbar__links a{
+        font-size: 8px;
+    }
+    .navbar__personal-area{
+        width: 80px;
+        height: 25px;
+    }
+    .navbar__personal-area-text{
+        margin-left: 7px;
+        font-size: 8px;
+    }
+    .navbar__user-outlined{
+        width: 20px;
+    }
+    .navbar__logo1{
+        width: 40px;
+    }
+    .navbar__logo-text{
+        width: 50px;
+    }
+}
+
+/* медиа Алены*/
+
+@media screen and (max-width: 1400px) {
+    .main__text {
+    margin-left: 15%;
+    }
+>>>>>>> 9367bdb15b1a5230c318ca424b769c610d2ae4f7
 
 @media screen and (max-width: 600px) { 
     .container input[type=text], 

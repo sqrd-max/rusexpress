@@ -152,7 +152,7 @@ a{
 .main__tracking-input{
     height: 288px;
     width: 1009px;
-    margin: 10% 0 0 28%;
+    margin: 10% 0 0 24%;
     border-radius: 20px;
     background-color: rgba(255,241,175,1);
     box-shadow: 1px 2px 20px #FFE15E;
@@ -160,7 +160,7 @@ a{
 .main__tracking-car{
     height: 267px;
     position: absolute;
-    margin: -50px 0 0 22%;
+    margin: -50px 0 0 18%;
 }
 .main__tracking-input-title{
     float: right;
@@ -412,7 +412,7 @@ a{
     margin-top: -50px;
 }
 .main__order{
-    margin: 9% 0 10% 24%;
+    margin: 9% 0 10% 20%;
     max-width: 1177px;
 
 }

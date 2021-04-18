@@ -764,6 +764,16 @@ footer{
         height: 280px;
     }
 }
+@media screen and (max-width: 1244px){
+    .order-car2{
+        width: 300px;
+        height: 250px;
+    }
+    .main__order-cards-2-txt {
+        width: 600px;
+        margin-left: 2%;
+    }
+}
 @media screen and (max-width: 1200px){
     .navbar__action{
         margin-left: 5%;
@@ -804,10 +814,7 @@ footer{
         width: 296px;
         height: 174px;
     }
-    .order-car2{
-        width: 300px;
-        height: 250px;
-    }
+    
     .footer__contacts-inst{
         margin-left: 0;
     }
@@ -821,12 +828,7 @@ footer{
     }
     
 }
-@media screen and (max-width: 1134px){
-    .main__order-cards-2-txt {
-        width: 600px;
-        margin-left: 2%;
-    }
-}
+
 @media screen and (max-width: 1080px){
     .navbar__action{
         margin-left: 4%;

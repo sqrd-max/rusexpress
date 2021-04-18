@@ -27,7 +27,7 @@ a{
 .top{
     background-image: url(../img/background-1.png);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px;
     background-size: 100%;
     padding-top: 4%;
     margin-top: -3px;
@@ -61,12 +61,12 @@ a{
     display: flex;
     justify-content: space-around;
     margin-left: 2%;
-    width: 700px;
+    width: 1300px;
 }
 .navbar__links a{
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 23px;
 }
 .navbar__links a:hover{
     color: rgb(254, 214, 49);
@@ -152,7 +152,7 @@ a{
 .main__tracking-input{
     height: 288px;
     width: 1009px;
-    margin: 10% 0 0 16%;
+    margin: 10% 0 0 28%;
     border-radius: 20px;
     background-color: rgba(255,241,175,1);
     box-shadow: 1px 2px 20px #FFE15E;
@@ -160,7 +160,7 @@ a{
 .main__tracking-car{
     height: 267px;
     position: absolute;
-    margin: -50px 0 0 9%;
+    margin: -50px 0 0 22%;
 }
 .main__tracking-input-title{
     float: right;
@@ -238,7 +238,10 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-left: 12%;
+    justify-content: space-between;
+    width: 80%;
 }
+
 .main__cooperation-buttons{
     width: 500px;
     margin-right: 7%;
@@ -340,7 +343,7 @@ a{
     line-height: 29px;
     color: #FFFFFF;
     padding-top: 22px;
-    margin-left: 40%;
+    margin-left: 41.5%;
 }
 .main__cooperation a{
     text-decoration: none;
@@ -388,7 +391,7 @@ a{
         transform: translateX(-150%);
     } 
     100% {
-        transform: translateX(800%);
+        transform: translateX(1100%);
     }   
 }
 .line1{
@@ -409,7 +412,7 @@ a{
     margin-top: -50px;
 }
 .main__order{
-    margin: 9% 0 10% 11%;
+    margin: 9% 0 10% 24%;
     max-width: 1177px;
 
 }
@@ -669,9 +672,7 @@ footer{
     border: none;
     color: white;
 }
-.footer__contacts-inst{
-    margin-left: 30px;
-}
+
 .footer__contacts a{
     margin: 0 10px 0 10px;
     font-size: 25px;
@@ -704,10 +705,31 @@ footer{
     opacity: 0;
     }
 }
+@media screen and (max-width: 2000px){
+    .navbar__links{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .navbar__links{
+        width: 800px;
+    }
+    .navbar__links a{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1484px){
+    .navbar__links{
+        width: 700px;
+    }
+    .navbar__links a{
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 1439px){
     .navbar__logo1{
         margin-left: 2.5%;
-    }
+    } 
 }
 @media screen and (max-width: 1385px){
     .navbar__personal-area{
@@ -736,6 +758,10 @@ footer{
     .main__order{
         margin-left: 7%;
         margin-right: 3%;
+    }
+    .order-car2{
+        width: 350px;
+        height: 280px;
     }
 }
 @media screen and (max-width: 1200px){
@@ -778,6 +804,10 @@ footer{
         width: 296px;
         height: 174px;
     }
+    .order-car2{
+        width: 300px;
+        height: 250px;
+    }
     .footer__contacts-inst{
         margin-left: 0;
     }
@@ -785,9 +815,16 @@ footer{
     .footer__contacts-networks__img1 {
         margin-left: -7px;
     }
-    .order-car2{
-        width: 350px;
-        height: 280px;
+    .operator-girl {
+        width: 300px;
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width: 1134px){
+    .main__order-cards-2-txt {
+        width: 600px;
+        margin-left: 2%;
     }
 }
 @media screen and (max-width: 1080px){
@@ -895,14 +932,8 @@ footer{
     .main__order-cards-2 ul{
         font-size: 14px;
     }
-    .order-car2{
-        width: 300px;
-        height: 250px;
-    }
-    .operator-girl {
-        width: 300px;
-        height: 300px;
-    }
+    
+    
 
 }
 @media screen and (max-width: 950px) {
@@ -973,6 +1004,14 @@ footer{
     footer{
         flex-direction: column;
         align-items: center;
+    }
+    .main__order-cards-2-txt{
+        width: 300px;
+        margin-left: 2%;
+    }
+    .order-car2{
+        width: 250px;
+        height: 200px;
     }
 }
 
@@ -1082,10 +1121,7 @@ footer{
     .main__order-cards-3-info{
         float: left;
     } 
-    .order-car2{
-        width: 250px;
-        height: 200px;
-    }
+    
     .operator-girl {
         width: 200px;
         height: 200px;
@@ -1093,13 +1129,10 @@ footer{
     .main__reviews-btn{
         margin: 7% 0 10% 35%;
     }
+   
 
 }
 @media screen and (max-width: 725px) {
-    .main__order-cards-2-txt{
-        width: 300px;
-        margin-left: 2%;
-    }
     .main__order-cards-2 span,
     .main__order-cards-3 span,
     .main__order-cards-4 span{

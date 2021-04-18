@@ -42,12 +42,12 @@ body{
     display: flex;
     justify-content: space-around;
     margin-left: 2%;
-    width: 700px;
+    width: 1300px;
 }
 .navbar__links a{
     color: white;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 23px;
 }
 .navbar__links a:hover{
     color: rgb(254, 214, 49);
@@ -243,9 +243,7 @@ footer{
     border: none;
     color: white;
 }
-.footer__contacts-inst{
-    margin-left: 30px;
-}
+
 .footer__contacts a{
     margin: 0 10px 0 10px;
     font-size: 25px;
@@ -254,7 +252,27 @@ footer{
     margin-bottom: 15px;
 }
 
-
+@media screen and (max-width: 2000px){
+    .navbar__links{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .navbar__links{
+        width: 800px;
+    }
+    .navbar__links a{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 1484px){
+    .navbar__links{
+        width: 700px;
+    }
+    .navbar__links a{
+        font-size: 16px;
+    }
+}
 @media screen and (max-width: 1439px){
     .navbar__logo1{
         margin-left: 2.5%;
@@ -431,8 +449,6 @@ footer{
         height: 100px; 
     }
 }
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 550px){
     .navbar__logo{
         margin-left: 10%;
@@ -495,8 +511,7 @@ footer{
     .main__text {
     margin-left: 15%;
     }
->>>>>>> 9367bdb15b1a5230c318ca424b769c610d2ae4f7
-
+}
 @media screen and (max-width: 600px) { 
     .container input[type=text], 
     .container select {

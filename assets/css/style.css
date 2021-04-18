@@ -391,7 +391,7 @@ a{
         transform: translateX(-150%);
     } 
     100% {
-        transform: translateX(1100%);
+        transform: translateX(1000%);
     }   
 }
 .line1{

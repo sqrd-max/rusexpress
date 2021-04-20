@@ -1147,6 +1147,12 @@ footer{
    
 
 }
+@media screen and (max-width: 736px) {
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 250px;
+    }
+}
 @media screen and (max-width: 725px) {
     .main__order-cards-2 span,
     .main__order-cards-3 span,
@@ -1170,7 +1176,13 @@ footer{
         width: 240px;
         height: 134px;
     }
-    
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 200px;
+    }
+    .main__cooperation-cards-1-time {
+        height: 140px;
+    }
     
 }
 
@@ -1227,10 +1239,10 @@ footer{
         font-size: 12px;
     }
     .main__cooperation-cards-1-time{
-        height: 140px;
+        height: 120px;
     }
     .main__cooperation-cards-1-tracking{
-        height: 140px;
+        height: 120px;
     }
     .card4{
         width: 300px;
@@ -1272,6 +1284,9 @@ footer{
         width: 90px;
         height: 45px;
         padding-top: 10px;
+    }
+    .main__cooperation-cards-4{
+        margin-left: 2%;
     }
     .main__order-cards-2 span,
     .main__order-cards-3 span,
@@ -1341,6 +1356,19 @@ footer{
     }
     
 }
+@media screen and (max-width: 592px){
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 200px;
+    }
+    .main__cooperation-cards-text{
+        width: 250px;
+        font-size: 10px;
+    }
+    .main__cooperation-cards-text2 {
+        font-size: 15px;
+    }
+}
 @media screen and (max-width: 570px){
     .navbar__logo{
         margin-left: 10%;
@@ -1409,11 +1437,12 @@ footer{
 @media screen and (max-width: 540px){
     .main__cooperation-cards-1-courier{
         margin-top: -40px;
-        height: 200px;
+        height: 150px;
     }
     .main__cooperation-cards-text{
-        width: 250px;
+        width: 240px;
         font-size: 10px;
+        line-height: 15px;
     }
     .main__cooperation-cards-1-time{
         height: 120px;
@@ -1563,6 +1592,14 @@ footer{
     .footer__subscribe-btn{
     width: 205px;
     }
+    .main__cooperation-cards-text2 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .main__cooperation-cards-1-time {
+        height: 80px;
+        margin-left: 4%;
+    }
 }
 
 @media screen and (max-width: 486px){
@@ -1624,6 +1661,12 @@ footer{
         height: 150px;
     }
 }
+@media screen and (max-width: 556px){
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 120px;
+    }
+}
 @media screen and (max-width: 452px){
     .main__order-cards-2-txt{
         width: 400px;
@@ -1673,7 +1716,28 @@ footer{
         font-size: 40px;
         line-height: 50px;
     }
-    
+    .main__cooperation-cards-1 p{
+        font-size: 13px;
+    }
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 120px;
+    }
+    .main__cooperation-cards-text{
+        width: 200px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .main__cooperation-cards ul{
+        font-size: 10px;
+    }
+    .main__cooperation-buttons button {
+        width: 250px;
+        height: 40px;
+        margin: 0 0 3% 0;
+        font-size: 11px;
+        line-height: 15px;
+    }
 }
 @media screen and (max-width: 425px){
     .navbar__links{
@@ -1743,21 +1807,7 @@ footer{
         line-height: 15px;
     }
 
-    .main__cooperation-cards-1 p{
-        font-size: 13px;
-    }
-    .main__cooperation-cards-1-courier{
-        margin-top: -40px;
-        height: 120px;
-    }
-    .main__cooperation-cards-text{
-        width: 200px;
-        font-size: 13px;
-        line-height: 13px;
-    }
-    .main__cooperation-cards ul{
-        font-size: 10px;
-    }
+    
     .main__cooperation-cards-text2{
         width: 200px;
         font-size: 10px;
@@ -1849,12 +1899,31 @@ footer{
 
     }
 }
+@media screen and (max-width: 393px){
+    .main__cooperation-cards-1 p{
+        font-size: 12px;
+    }
+    .main__cooperation-cards-1-courier{
+        margin-top: -60px;
+        height: 100px;
+        margin-left: 70%;
+    }
+    .main__cooperation-cards-text{
+        width: 200px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .main__cooperation-cards ul{
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 380px){
     .order-car{
         width: 150px;
         height: 95px;
         margin: -40px 0 0 60%; 
     }
+    
 }
 @media screen and (max-width: 370px){
     .navbar__links{
@@ -1932,22 +2001,7 @@ footer{
     
 }
 @media screen and (max-width: 356px){
-    .main__cooperation-cards-1 p{
-        font-size: 12px;
-    }
-    .main__cooperation-cards-1-courier{
-        margin-top: -60px;
-        height: 120px;
-        margin-left: 60%;
-    }
-    .main__cooperation-cards-text{
-        width: 200px;
-        font-size: 13px;
-        line-height: 13px;
-    }
-    .main__cooperation-cards ul{
-        font-size: 10px;
-    }
+    
     .main__cooperation-cards-text2{
         width: 140px;
         font-size: 10px;

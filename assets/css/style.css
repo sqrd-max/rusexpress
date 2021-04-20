@@ -435,7 +435,7 @@ a{
 .main__order-cards{
     background-color: #FEF9E1;
     position: relative;
-    height: 480px;
+    height: 450px;
     max-width: 1177px;
     padding-top: 4%;
     
@@ -612,6 +612,7 @@ a{
 
 
 
+
 /* footer */
 footer{
     background-image: url(../img/footer.png);
@@ -631,6 +632,7 @@ footer{
 .footer__about,
 .footer__delivery{
     width: 300px;
+    margin-bottom: 30px;
 }
 .footer__about a,
 .footer__delivery a,
@@ -678,7 +680,15 @@ footer{
     font-size: 25px;
 }
 .footer__contacts-networks{
-    margin-bottom: 15px;
+    margin: 15px 0 30px 0;
+    font-size: 20px;
+}
+.footer__contacts-networks__img1{
+    margin: 0 0 15px 0;
+}
+.vk,
+.footer__contacts-inst{
+    margin-right: 10px;
 }
 /* main end */
 
@@ -1329,6 +1339,7 @@ footer{
         font-size: 50px;
         line-height: 63px;
     }
+    
 }
 @media screen and (max-width: 570px){
     .navbar__logo{

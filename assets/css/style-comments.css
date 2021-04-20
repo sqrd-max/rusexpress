@@ -482,7 +482,11 @@ footer {
         height: 100px;
     }
 }
-
+@media screen and (max-width: 600px) {
+    input[type=button]{
+        margin-left: 0;
+    }
+}
 @media screen and (max-width: 550px) {
     .navbar__logo {
         margin-left: 10%;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RuseEpress</title>
+    <title>RusExpress</title>
     <link rel="stylesheet" href="assets/css/style-comments.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,17 +55,17 @@
             </p>
         </div>
         <div class="container">
-            <form action=" ">
+            <form action="" id='comment_form'>
                 <div class="row">
                     <div class="col-25">
                         <label for="question">Категория вопроса*</label>
                     </div>
                     <div class="col-75">
                         <select id="question" name="question">
-                            <option value="1" disabled selected>Выберете категорию </option>
-                            <option value="2">выбрать</option>
-                            <option value="3">выбрать</option>
-                            <option value="4">выбрать</option>
+                            <option value="1" disabled selected>Выберите категорию </option>
+                            <option value="2">Отзыв</option>
+                            <option value="3">Предложение</option>
+                            <option value="4">Жалоба</option>
                         </select>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         <label for="topic">Тема обращения*</label>
                     </div>
                     <div class="col-75">
-                        <input type="text">
+                        <input type="text" id='comment_topic'>
                     </div>
                 </div>
                 <div class="row">
@@ -82,7 +82,7 @@
                         <label for="message">Сообщение*</label>
                     </div>
                     <div class="col-75">
-                        <input type="text">
+                        <input type="text" id='comment_message'>
                     </div>
                 </div>
                 <div class="row">
@@ -90,11 +90,16 @@
                         <label for="email">Email*</label>
                     </div>
                     <div class="col-75">
-                        <input type="text">
+                        <input type="text" id='comment_email'>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col-75'>
+                        <label for='comment_form' id='comment_error'></label>
                     </div>
                 </div>
                 <div class="row">
-                    <input type="submit" value="Отправить">
+                    <input type="button" value="Отправить" onClick='commentAction()'>
                 </div>
             </form>
         </div>
@@ -109,7 +114,7 @@
             <a href="#">Новости</a><br>
             <a href="#">Полезная информация</a><br>
             <a href="#">Стоимость</a><br>
-            <a href="#">Политика обработки пероснальных данных</a>
+            <a href="#">Политика обработки персональных данных</a>
         </div>
         <div class="footer__delivery">
             <span class="footer__delivery-title">О доставке</span><br>
@@ -133,6 +138,7 @@
     </footer>
     <script src="assets/js/jquery-3.4.1.js"></script>
     <script src="assets/js/language.js"></script>
+    <script src="assets/js/comments.js"></script>
     
 </body>
 </html>

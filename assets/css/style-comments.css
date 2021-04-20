@@ -281,9 +281,14 @@ footer {
     color: white;
 }
 
-.footer__contacts a {
+.footer__contacts a{
     margin: 0 10px 0 10px;
     font-size: 25px;
+    
+}
+.footer__contacts-networks a{
+    text-decoration: none;
+    color: black;
 }
 
 .footer__contacts-networks{

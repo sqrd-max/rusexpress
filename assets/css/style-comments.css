@@ -343,7 +343,11 @@ footer {
     .container {
         margin-left: 15%;
     }
+    .main__text {
+        margin-left: 15%;
+    }
 }
+
 
 @media screen and (max-width: 1385px) {
     .navbar__personal-area {
@@ -440,27 +444,12 @@ footer {
         align-items: center;
     }
 }
-
-@media screen and (max-width: 750px) {
-    .main__text {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .main h2 {
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-bottom: 10px;
-        font-size: 35px;
-    }
-    .container {
-        margin-left: 5%;
-    }
-    .container input[type=text],
-    .container select {
-        width: 320px;
+@media screen and (max-width: 819px){
+    .footer__about, .footer__delivery {
+        margin-top: 0;
+        text-align: center;
     }
 }
-
 @media screen and (max-width: 786px) {
     .navbar__links {
         width: 200px;
@@ -495,76 +484,23 @@ footer {
         height: 100px;
     }
 }
-@media screen and (max-width: 600px) {
-    input[type=button]{
-        margin-left: 0;
-    }
-}
-@media screen and (max-width: 550px) {
-    .navbar__logo {
-        margin-left: 10%;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar__logo {
-        margin-left: 0%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .navbar__links {
-        width: 150px;
-    }
-    .navbar__links a {
-        font-size: 10px;
-        text-align: center;
-    }
-    .navbar__personal-area {
-        width: 100px;
-        height: 35px;
-    }
-    .navbar__personal-area-text {
-        margin-left: 10px;
-        font-size: 10px;
-    }
-    .navbar__user-outlined {
-        width: 25px;
-    }
-}
-
-@media screen and (max-width: 370px) {
-    .navbar__links {
-        width: 100px;
-    }
-    .navbar__links a {
-        font-size: 8px;
-    }
-    .navbar__personal-area {
-        width: 80px;
-        height: 25px;
-    }
-    .navbar__personal-area-text {
-        margin-left: 7px;
-        font-size: 8px;
-    }
-    .navbar__user-outlined {
-        width: 20px;
-    }
-    .navbar__logo1 {
-        width: 40px;
-    }
-    .navbar__logo-text {
-        width: 50px;
-    }
-}
-
-
-/* медиа Алены*/
-
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 750px) {
     .main__text {
-        margin-left: 15%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .main h2 {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+    .container {
+        margin-left: 5%;
+    }
+    .container input[type=text],
+    .container select {
+        width: 320px;
     }
 }
 
@@ -585,6 +521,16 @@ footer {
     }
     .footer__contacts-inst {
         margin-left: 0;
+    }
+    input[type=button]{
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .navbar__logo {
+        margin-left: 10%;
     }
 }
 
@@ -613,6 +559,13 @@ footer {
         width: 205px;
     }
 }
+@media screen and (max-width: 480px) {
+    .navbar__logo {
+        margin-left: 0%;
+    }
+}
+
+
 
 @media screen and (max-width: 425px) {
     .navbar__links {
@@ -659,9 +612,10 @@ footer {
     }
 }
 
+
 @media screen and (max-width: 370px) {
     .navbar__links {
-        width: 100px;
+        width: 130px;
     }
     .navbar__links a {
         font-size: 8px;
@@ -709,6 +663,14 @@ footer {
         margin-left: 15%;
         margin-right: 10%;
         margin-top: 0;
+    }
+    .navbar__links{
+        width: 110px;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar__links{
+        width: 100px;
     }
 }
 

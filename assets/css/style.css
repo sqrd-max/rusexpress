@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    background-color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 100;
     display: -webkit-box;
@@ -11,6 +12,7 @@ body{
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+            width:100%;
       
 }
 a{
@@ -311,7 +313,7 @@ a{
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-left: 18%;
+    margin-left: 10%;
 }
 .card4{
     width: 349px;
@@ -391,10 +393,10 @@ a{
         transform: translateX(-150%);
     } 
     100% {
-        transform: translateX(1000%);
+        transform: translateX(980%);
     }   
 }
-.line1{
+svg{
     width: 100%;
 }
 .point{
@@ -631,7 +633,7 @@ footer{
 }
 .footer__about,
 .footer__delivery{
-    width: 300px;
+    width: 230px;
     margin-bottom: 30px;
 }
 .footer__about a,
@@ -985,6 +987,7 @@ footer{
     
 }
 @media screen and (max-width: 850px){
+    
     .top__header-title{
         width: 550px;
         line-height: 55px;
@@ -1027,12 +1030,22 @@ footer{
     .order-car2{
         width: 250px;
         height: 200px;
+    } 
+    
+   
+}
+@media screen and (max-width: 819px){
+    .footer__about, .footer__delivery {
+        margin-top: 0;
+        text-align: center;
+    }
+    .footer__contacts-networks{
+        margin: 15px 0 30px 20px;
     }
 }
-
 @media screen and (max-width: 786px){
     header{
-        height: 500px;
+        height: 400px;
     }
     .navbar__links{
         width: 200px;
@@ -1110,8 +1123,8 @@ footer{
         font-size: 10px;
     }
     .main__tracking-rus{
-        width: 684px;
-        height: 146px;
+        width: 450px;
+        height: 126px;
         font-size: 40px;
         margin-left: 12%;
         line-height: 45px;
@@ -1186,7 +1199,8 @@ footer{
     
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 650px){
+  
     .top{
         height: 400px;
     }
@@ -1243,6 +1257,7 @@ footer{
     }
     .main__cooperation-cards-1-tracking{
         height: 120px;
+        margin-left: 30%;
     }
     .card4{
         width: 300px;
@@ -1285,9 +1300,9 @@ footer{
         height: 45px;
         padding-top: 10px;
     }
-    .main__cooperation-cards-4{
-        margin-left: 2%;
-    }
+    /*.main__cooperation-cards-4{*/
+    /*    margin-left: 2%;*/
+    /*}*/
     .main__order-cards-2 span,
     .main__order-cards-3 span,
     .main__order-cards-4 span{
@@ -1306,8 +1321,11 @@ footer{
         font-size: 12px;
         line-height: 20px;
     }
-    
-    
+    header{
+        height: 500px;
+    }
+
+
 }
 @media screen and (max-width: 625px) {
     .order-car2{
@@ -1354,6 +1372,7 @@ footer{
         font-size: 50px;
         line-height: 63px;
     }
+    
     
 }
 @media screen and (max-width: 592px){
@@ -1434,6 +1453,16 @@ footer{
     
     
 }
+
+
+
+@media screen and (max-width: 556px){
+    .main__cooperation-cards-1-courier{
+        margin-top: -40px;
+        height: 120px;
+    }
+}
+
 @media screen and (max-width: 540px){
     .main__cooperation-cards-1-courier{
         margin-top: -40px;
@@ -1479,8 +1508,8 @@ footer{
         line-height: 20px;
     }
     .main__tracking-rus{
-        width: 684px;
-        height: 146px;
+        width: 400px;
+        
         font-size: 30px;
         margin-left: 12%;
         line-height: 35px;
@@ -1559,11 +1588,48 @@ footer{
         height: 35px;
         padding-top: 7px;
     }
-    
-    
 }
 
 @media screen and (max-width: 500px) {
+    .main__tracking-input{
+        width: 300px;
+        height: 120px;
+        margin: 8% 0 0 15%;
+    }
+    .main__tracking-car{
+        height: 70px;
+        margin-top: -10px;
+        margin-left: 8%;
+    }
+    .main__tracking-input-title{
+        width: 200px;
+        font-size: 15px;
+        line-height: 20px;
+        margin: 4% 4% 0 0;
+    }
+    .main__tracking-input-text{
+        width: 200px;
+        font-size: 8px;
+        line-height: 10px;
+        margin-right: 4%;
+    }
+    .input-treck1{
+        width: 170px;
+        height: 15px;
+        font-size: 8px;
+    }
+    .main__tracking-input-track-search{
+        width: 40px;
+        height: 15px;
+        font-size: 6px;
+    }
+    .main__cooperation-buttons button{
+        width: 250px;
+        height: 40px;
+        margin: 0 0 3% 0;
+        font-size: 11px;
+        line-height: 15px;
+    }
 
     .footer__contacts-networks__img1,
     .footer__contacts-networks__img2 {
@@ -1576,8 +1642,9 @@ footer{
     }
 
     .footer__contacts {
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 10%;
+    text-align:center;
     }
 
     .footer__contacts-inst{
@@ -1590,15 +1657,18 @@ footer{
     }
     .footer__contacts-btn,
     .footer__subscribe-btn{
-    width: 205px;
+        width: 205px;
+        margin-bottom:20%;
     }
     .main__cooperation-cards-text2 {
         font-size: 10px;
         line-height: 15px;
+        margin-left: 11%;
+        text-align: center;
     }
     .main__cooperation-cards-1-time {
         height: 80px;
-        margin-left: 4%;
+        margin-left: 35%;
     }
 }
 
@@ -1661,12 +1731,7 @@ footer{
         height: 150px;
     }
 }
-@media screen and (max-width: 556px){
-    .main__cooperation-cards-1-courier{
-        margin-top: -40px;
-        height: 120px;
-    }
-}
+
 @media screen and (max-width: 452px){
     .main__order-cards-2-txt{
         width: 400px;
@@ -1740,6 +1805,9 @@ footer{
     }
 }
 @media screen and (max-width: 425px){
+    header{
+        height: 400px;
+    }
     .navbar__links{
         width: 150px;
     }
@@ -1769,55 +1837,17 @@ footer{
         font-size: 7px;
         line-height: 15px;
     }
-    .main__tracking-input{
-        width: 300px;
-        height: 120px;
-    }
-    .main__tracking-car{
-        height: 70px;
-        margin-top: -10px;
-    }
-    .main__tracking-input-title{
-        width: 200px;
-        font-size: 15px;
-        line-height: 20px;
-        margin: 4% 4% 0 0;
-    }
-    .main__tracking-input-text{
-        width: 200px;
-        font-size: 8px;
-        line-height: 10px;
-        margin-right: 4%;
-    }
-    .input-treck1{
-        width: 170px;
-        height: 15px;
-        font-size: 8px;
-    }
-    .main__tracking-input-track-search{
-        width: 40px;
-        height: 15px;
-        font-size: 6px;
-    }
-    .main__cooperation-buttons button{
-        width: 250px;
-        height: 40px;
-        margin: 0 0 3% 0;
-        font-size: 11px;
-        line-height: 15px;
-    }
-
     
     .main__cooperation-cards-text2{
         width: 200px;
         font-size: 10px;
     }
     .main__cooperation-cards-2{
-        width: 400px;
+        width: 300px;
     }
-    .main__cooperation-title{
-        font-size: 30px;
-        line-height: 40px;
+    .main__cooperation-title {
+        font-size: 25px;
+        line-height: 35px;
     }
     .card4{
         width: 200px;
@@ -1828,13 +1858,13 @@ footer{
         font-size: 20px;
         line-height: 29px;
         padding-top: 12px;
-        margin-left: 8%;
     }
     .main__tracking-rus{
         font-size: 20px;
         margin-left: 8%;
         line-height: 25px;
         margin-bottom: -60px;
+        width:300px;
     }
     .order-pc{
         width: 120px;
@@ -1898,6 +1928,14 @@ footer{
         margin-right: 35%;
 
     }
+     @keyframes slideRight {
+        0% {
+            transform: translateX(-150%);
+        } 
+        100% {
+            transform: translateX(350%);
+        }   
+    }
 }
 @media screen and (max-width: 393px){
     .main__cooperation-cards-1 p{
@@ -1927,7 +1965,7 @@ footer{
 }
 @media screen and (max-width: 370px){
     .navbar__links{
-        width: 100px;
+        width: 130px;
     }
     .navbar__links a{
         font-size: 8px;
@@ -1963,16 +2001,17 @@ footer{
         height: 200px;
     }
     header{
-        height: 400px;
+        height: 320px;
     }
     .main__tracking-input{
         width: 270px;
         height: 120px;
-        margin-bottom: 20%;
+        margin: 0 0 20% 10%;
     }
     .main__tracking-car{
         height: 50px;
         margin-top: 10px;
+        margin-left: 6%;
     }
     .main__tracking-input-text{
         width: 150px;
@@ -2001,9 +2040,12 @@ footer{
     
 }
 @media screen and (max-width: 356px){
+    .navbar__links{
+        width: 110px;
+    }
     
     .main__cooperation-cards-text2{
-        width: 140px;
+        width: 200px;
         font-size: 10px;
         line-height: 15px;
     }
@@ -2077,11 +2119,6 @@ footer{
         height: 350px;
     }
 
-    .footer__about, .footer__delivery {
-        margin-top: 0;
-        margin-left: 9%;
-    }
-
     .footer__contacts {
         margin-left: 15%;
         margin-right: 10%;
@@ -2102,5 +2139,13 @@ footer{
     .order-car2{
         width: 150px;
         height: 120px;
+    }
+    .main__tracking-rus{
+        width:250px;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar__links{
+        width: 100px;
     }
 }

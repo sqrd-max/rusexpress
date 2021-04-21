@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,20 +10,21 @@
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/png">
 </head>
 <body>
     <header>
         <div class="navbar">
             <div class="navbar__logo">
-                <img src="assets/img/logo.png" alt="logo" class="navbar__logo1">
-                <img src="assets/img/logo-text.png" alt="logo-text" class="navbar__logo-text">
+                <a href="index.html"><img src="assets/img/logo.png" alt="logo" class="navbar__logo1"></a>
+                <a href="index.html"> <img src="assets/img/logo-text.png" alt="logo-text" class="navbar__logo-text"></a>
             </div>
             <div class="navbar__vl"></div>
             <div class="navbar__links">
-                <a href="index.html">Услуги</a>
-                <a href="#">Отслеживание</a>
-                <a href="#">Калькулятор</a>
-                <a href="#">Контакты</a>
+                <a href="uslugi.html">Услуги</a>
+                <a href="service.html">Отслеживание</a>
+                <a href="calculator.html">Калькулятор</a>
+                <a href="contacts.html">Контакты</a>
                 <!-- <a href="#">Для корпоративных клиентов</a> -->
             </div>
             <div class="navbar__vl-2"></div>
@@ -33,10 +35,10 @@
                         <option value="0" class="icon-en">EN</option> 
                     </select>
                 </div> -->
-                <button class="navbar__personal-area">
+                <a href="authorization.html"><button class="navbar__personal-area">
                     <img src="assets/img/user-outlined.png" alt="user-outlined" class="navbar__user-outlined">
                     <span class="navbar__personal-area-text">Личный кабинет</span>
-                </button>
+                </button></a>
             </div>
         </div>
     </header>
@@ -44,11 +46,11 @@
         <h2>СВЯЖИТЕСЬ С НАМИ</h2>
         <div class="main__contacts">
             <div class="main__contacts-btn">
-                <button id="main__contacts-block1" class="cnt-btn clicked2">
+                <button id="main__contacts-block1" class="cnt-btn">
                     <img src="assets/img/question.png" alt="question" class="cnt-img">
                     <p>Вопросы и ответы</p>
                 </button>
-                <button  id="main__contacts-block2" class="cnt-btn">
+                <button  id="main__contacts-block2" class="cnt-btn clicked2">
                     <img src="assets/img/mail.png" alt="mail" class="cnt-img">
                     <p>Контакты</p>
                 </button>
@@ -58,7 +60,7 @@
                 </button>
             </div>
             <div class="main__contacts-block">
-                <div class="main__contacts-block1 section3 section3_loaded">
+                <div class="main__contacts-block1 section3">
                     <h3>Популярные вопросы.</h3> 
                     <p>пока пусто</p>
                     <h3>Начало работы.</h3>
@@ -72,7 +74,7 @@
                     <h3>Способы оплаты.</h3>
                     <p>пока пусто</p>
                 </div>
-                <div class="main__contacts-block2 section3">
+                <div class="main__contacts-block2 section3 section3_loaded">
                     <p class="title1">Подпишитесь на наши новости, чтобы получать актуальную информацию.</p>
                     <div class="email"><input type="text" placeholder="Укажите Email" class="subscribe-email"><button class="subscribe-btn">Подписаться</button></div>
                     <p class="title2">Больше полезных материалов в наших социальных группах.</p><br>
@@ -91,7 +93,7 @@
                     <p class="title4">Оставьте контактные данные и мы перезвоним Вам в течениe минуты!</p>
                     <input type="text" class="number-name" placeholder="Введите номер телефона">
                     <input type="text" class="number-name" placeholder="Введите имя">
-                    <button class="main__contacts-block3-btn">Повоните мне!</button>
+                    <button class="main__contacts-block3-btn">Позвоните мне!</button>
                 </div>
             </div>
         </div>
@@ -108,15 +110,15 @@
         <div class="footer__about">
             <span class="footer__about-title">О нас</span><br>
             <a href="#">О компании</a><br>
-            <a href="#">Стоимость</a><br>
+            <a href="/assets/compred.pdf">Стоимость</a><br>
             <!--<a href="comments.html">Отзывы и предложения</a>-->
             
         </div>
         <div class="footer__delivery">
             <span class="footer__delivery-title">О доставке</span><br>
-            <a href="https://home.courierexe.ru/">Калькулятор</a><br>
-            <a href="https://home.courierexe.ru/">Отслеживание</a><br>
-            <a href="#">Доставка по России</a><br>
+            <a href="https://home.courierexe.ru/249/calculator">Калькулятор</a><br>
+            <a href="service.html">Отслеживание</a><br>
+            <a href="/assets/compred.pdfr">Доставка по России</a><br>
             
         </div>
         <div class="footer__contacts">

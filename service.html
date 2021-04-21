@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RusExpress</title>
-    <link rel="stylesheet" href="assets/css/style-authorization.css">
+    <link rel="stylesheet" href="assets/css/style-contacts.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
@@ -18,15 +18,30 @@
                 <a href="index.html"><img src="assets/img/logo.png" alt="logo" class="navbar__logo1"></a>
                 <a href="index.html"> <img src="assets/img/logo-text.png" alt="logo-text" class="navbar__logo-text"></a>
             </div>
-            
+            <div class="navbar__vl"></div>
             <div class="navbar__links">
-                <a href="index.html">Вернуться на главную</a>
-                <a href="service.html">Личный кабинет</a>
+                <a href="uslugi.html">Услуги</a>
+                <a href="service.html">Отслеживание</a>
+                <a href="calculator.html">Калькулятор</a>
+                <a href="contacts.html">Контакты</a>
+                <!-- <a href="#">Для корпоративных клиентов</a> -->
             </div>
-            
+            <div class="navbar__vl-2"></div>
+            <div class="navbar__action">
+                <!-- <div class="form">
+                    <select class="select-events">
+                        <option value="1" class="icon-ru">RU</option> 
+                        <option value="0" class="icon-en">EN</option> 
+                    </select>
+                </div> -->
+                <a href="authorization.html"><button class="navbar__personal-area">
+                    <img src="assets/img/user-outlined.png" alt="user-outlined" class="navbar__user-outlined">
+                    <span class="navbar__personal-area-text">Личный кабинет</span>
+                </button></a>
+            </div>
         </div>
     </header>
-    <iframe id="iframeForMonitoring" style="padding-top: 10px;" src="https://home.courierexe.ru/249/auth/login" scrolling="auto" width="100%" height="870" frameborder="0"></iframe>
+    <iframe id="iframeForMonitoring" style="padding-top: 10px;" src="https://home.courierexe.ru/249/tracking" scrolling="auto" width="100%" height="870" frameborder="0"></iframe>
     <footer>
         <div class="footer__logo">
             <img src="assets/img/footer_logo.png" alt="footer__logo">
@@ -64,6 +79,8 @@
 <script src="assets/js/language.js"></script>
 <script src="assets/js/cards.js"></script>
 <script id="dsq-count-scr" src="//rusexpress.disqus.com/count.js" async></script>
-</body>
 
+
+
+</body>
 </html>

@@ -34,6 +34,23 @@ $('#main__contacts-block3').on("click",function(e){
     showCard3(e);
 });
 
+$('#block1').on("click",function(e){
+    showCard4(e);
+});
+$('#block2').on("click",function(e){
+    showCard4(e);
+});
+$('#block3').on("click",function(e){
+    showCard4(e);
+});
+$('#block4').on("click",function(e){
+    showCard4(e);
+});
+$('#block5').on("click",function(e){
+    showCard4(e);
+});
+
+
 function showCard(e){
     $('.section_loaded').addClass('section_hidden').removeClass('section_loaded');
     $('.clicked').removeClass('clicked').addClass('noneclicked');
@@ -66,6 +83,17 @@ function showCard3(e){
     toShowCard = $('.'+cardName);
     console.log(currentCard2[0]);
     toShowCard.removeClass('section3_hidden').addClass('section3_loaded');
+    $('#'+cardName).removeClass('noneclicked2').addClass('clicked2');
+}
+function showCard4(e){
+    $('.section4_loaded').addClass('section3_hidden').removeClass('section4_loaded');
+    $('.clicked2').removeClass('clicked2').addClass('noneclicked2');
+    let target= e.currentTarget;
+    let currentCard2=$(target).prop("id").split('#');
+    cardName=currentCard2[0];
+    toShowCard = $('.'+cardName);
+    console.log(currentCard2[0]);
+    toShowCard.removeClass('section3_hidden').addClass('section4_loaded');
     $('#'+cardName).removeClass('noneclicked2').addClass('clicked2');
 }
 
